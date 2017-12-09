@@ -154,7 +154,7 @@ footer{
   padding: 0 .25em;
 }
 .images-div1{
-  padding-top: 110px;
+  padding-top: 160px;
   display: flex;
   flex-direction:row;
   width: 100vw;
@@ -191,6 +191,12 @@ footer{
     margin: 0 auto;
 
   }
+  .who{
+    right:40%;
+  }
+  .meetup{
+    right:40%;
+  }
 }
 @media only screen and (min-width: 320px)and(max-width:414px){
   .who{
@@ -218,7 +224,7 @@ footer{
 }
 @media only screen and (min-width: 768px){
   .meetup{
-    right: 70%;
+    right: 55%;
   }
   .details{
     right: 80%;
