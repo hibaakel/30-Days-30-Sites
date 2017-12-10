@@ -6,13 +6,21 @@ body{
   text-align: center;
   background-color: #E5E5E5;
 }
+h1{
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-top: 0;
+}
 .container{
-  width : 80%;
+  width : 95%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 30px;
+
+}
+.SN1{
+  padding-bottom: 50px;
+}
+.SN2{
+  margin: 3em 0;
 }
 .title{
   font-size: 2.5rem;
@@ -21,13 +29,6 @@ body{
   font-weight: 300;
   display: block;
   font-size: .9em;
-}
-.details{
-  font-size: 2.5rem;
-}
-
-.who{
-  font-size: 2.5rem;
 }
 .button{
   font-size:1.75rem;
@@ -38,6 +39,10 @@ body{
   padding: 1.5em 1.75em ;
   display: inline-block;
 }
+.button-small{
+  font-size:.6rem;
+  font-weight: 700;
+}
 .button-accent{
   color: #00ff6c;
   border-color: #00ff6c;
@@ -47,4 +52,55 @@ body{
   background:#00ff6c;
   color:#232323;
   padding-bottom: 30px;
+}
+.details-textbox{
+  background-color: #232323;
+  padding: 4em;
+  width:100vw;
+  margin-left: -2.5%;
+  outline: 2px solid #00ff6c;
+  outline-offset: -2.5em;
+  color:#fff;
+  position: relative;
+}
+.details{
+  color: #00ff6c;
+  position: absolute;
+  left:50%;
+  top: .3em;
+  background: #232323;
+  padding: 0 .25em;
+}
+.SN6{
+  margin: 3em 0;
+}
+.SN6 img{
+  display: block;
+  width: 100vh;
+  height: 628px;
+
+}
+.img-size{
+  width: 100%;
+  margin: 0 auto;
+
+}
+.img-item{
+  margin: 0;
+  position: relative;
+}
+.descreption{
+  position: absolute;
+  z-index: 100;
+  bottom: 2em;
+  left:1em;
+  right: 1em;
+  color:#fff;
+  background: rgba(0,0,0,.75);
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-top: .5em;
+}
+.descreption p{
+  margin: 0;
 }
