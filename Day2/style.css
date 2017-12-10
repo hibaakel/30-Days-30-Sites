@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  text-align: center;
+}
+
+.container{
+  width : 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.title{
+  font-size: 2.5rem;
+}
+.title span{
+  font-weight: 300;
+  display: block;
+  font-size: .9em;
+}
+.details{
+  font-size: 2.5rem;
+}
+.details span{
+  font-weight: 300;
+  display: block;
+  font-size: .9em;
+}
+.who{
+  font-size: 2.5rem;
+}
+.who span{
+  font-weight: 300;
+  display: block;
+  font-size: .9em;
+}
+.button{
+  font-size:1.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: 1.5em 1.75em ;
+  display: inline-block;
+}
+.button-accent{
+  color: #00ff6c;
+  border-color: #00ff6c; 
+}
+.button-accent:hover,
+.button-accent:focus{
+  background:#00ff6c;
+  color:#232323;
+}
