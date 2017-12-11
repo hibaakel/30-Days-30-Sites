@@ -79,6 +79,31 @@ h1{
   background: #232323;
   padding: 0 .25em;
 }
+
+/*------------------------*/
+/*Section number 3*/
+.SN3{
+  margin: 3em 0;
+}
+
+.who-textbox{
+  background-color: #232323;
+  padding: 4em;
+  width:100vw;
+  margin-left: -2.5%;
+  outline: 2px solid #00ff6c;
+  outline-offset: -2.5em;
+  color:#fff;
+  position: relative;
+}
+.who{
+  color: #00ff6c;
+  position: absolute;
+  left:50%;
+  top: .3em;
+  background: #232323;
+  padding: 0 .1em;
+}
 /*------------------------*/
 /*Section number 6*/
 .SN6{
