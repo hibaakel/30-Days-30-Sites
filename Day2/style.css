@@ -12,6 +12,11 @@ h1{
   font-weight: 300;
   margin-top: 0;
 }
+footer{
+  color:#fff;
+  font-size: 10px;
+  margin: 0;
+}
 .container{
   width : 95%;
   margin: 0 auto;
@@ -108,7 +113,7 @@ h1{
   padding: 0 .25em;
 }
 .p-div{
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 10px;
   font-weight: bold;
 }
@@ -179,7 +184,7 @@ h1{
   position: relative;
 }
 /* Media Query for images*/
-@media only screen and (min-width: 1024px) {
+@media only screen  and (min-width: 320px)and (max-width: 679px) {
   .img-size{
     width: 30vw;
     height: 30vw;
@@ -187,6 +192,20 @@ h1{
 
   }
 }
+@media only screen and (min-width: 320px)and(max-width:414px){
+  .who{
+    left:50%;
+  }
+  .p-div{
+    padding-right:80px;
+  }
+}
+@media only screen and (min-width: 1019px){
+  .p-div{
+    padding-top:10px;
+  }
+}
+
 @media only screen and (min-width: 320px)and(max-width:767px){
   .img-size{
     width: 30vw;
@@ -194,12 +213,7 @@ h1{
     margin: 0 auto;
 
   }
-  .who{
-    right:50%;
-  }
-  .p-div{
-    padding-top:80px;
-  }
+
 
 }
 @media only screen and (min-width: 768px){
@@ -208,5 +222,11 @@ h1{
   }
   .details{
     right: 80%;
+  }
+  .img-size{
+    width: 30vw;
+    height: 30vw;
+    margin: 0 auto;
+
   }
 }
