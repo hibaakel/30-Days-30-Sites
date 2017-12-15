@@ -2,12 +2,86 @@
   box-sizing: border-box;
 }
 body{
+  font-size:15px;
   margin: 0;
   text-align: center;
   font-family: Raleway;
-  background: gray;
 }
+/* Global*/
 .container{
-  width : 95%;
-  margin: 0 auto;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+ margin: 0;
+ padding: 0;
+}
+/*Header*/
+
+header{
+  right: 0;
+  left:0;
+  margin-top: 1em;
+  color:#242412;
+
+}
+ nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  display:inline-grid;
+  margin: 1em;
+  padding: .9rem;
+
+
+}
+nav a{
+  color:#363612;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 900;
+  padding: .5em;
+  padding-top: .5em;
+  border: 3px  #a26c24  dashed;
+  background-color: #90906c;
+
+}
+.logo{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  position: absolute;
+   top: 5px;
+   right: 0;
+   left: 0;
+}
+.title{
+  padding-top: 45px;
+  padding-bottom: .5em;
+  position: absolute;
+   top: 66px;
+   right: 0;
+   left: 0;
+  font-weight: 200;
+  font-size: 10px;
+  font-style: italic;
+}
+
+
+.home{
+  min-height: 400px;
+
+  background: url('./images/naz3.jpg') no-repeat center center fixed  ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 10em 0;
+  margin: 0;
+
+
 }
