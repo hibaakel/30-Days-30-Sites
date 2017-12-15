@@ -40,7 +40,6 @@ header li{
   float: left;
   display: inline;
   padding: 0 20px 0 20px;
-  font-family: Arbutus ;
   margin-bottom: 5px;
   font-style:oblique;
   font-size: 30px;
@@ -50,7 +49,6 @@ header  h1{
   float:left;
   margin: 0;
   font-size: 60px;
-  font-family: Berkshire Swash ;
   margin-bottom: 5px;
   font-style: italic;
   color: #52489C;
@@ -63,4 +61,15 @@ header nav{
 header a:hover{
   color:#524948;
   font-weight: bold;
+}
+/* Home Section */
+
+.home{
+  min-height:400px;
+  background: url('https://images.unsplash.com/photo-1480223600438-985f45515145?auto=format&fit=crop&w=750&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat  0 -400px;
+  background-size: cover;
+  text-align: center;
+  background-position: 50%;
+  margin: 0 auto;
+  border-bottom: #997F7F 3px solid;
 }
