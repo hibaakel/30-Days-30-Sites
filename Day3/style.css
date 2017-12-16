@@ -1,14 +1,17 @@
+*{
+  box-sizing: border-box;
+}
 body{
-  font:15px;
-  padding: 0;
+  font-size:15px;
   margin: 0;
+  text-align: center;
+  font-family: Raleway;
 }
 /* Global*/
 .container{
   width: 100%;
   margin: auto;
   overflow: hidden;
-  font-family: Allan;
 }
 
 ul{
@@ -16,60 +19,69 @@ ul{
  padding: 0;
 }
 /*Header*/
-#header-container{
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-}
+
 header{
-  background: #70F8BA;
-  color:black;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #CAFE48 3px solid;
+  right: 0;
+  left:0;
+  margin-top: 1em;
+  color:#242412;
 
 }
-header a{
-  color:#52489C ;
+ nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  display:inline-grid;
+  margin: 1em;
+  padding: .9rem;
+
+
+}
+nav a{
+  color:#363612;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
-}
+  font-size: 3em;
+  font-weight: 900;
+  padding: .5em;
+  padding-top: .5em;
+  border: 3px  #a26c24  dashed;
+  background-color: #90906c;
 
-header li{
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-  margin-bottom: 5px;
-  font-style:oblique;
-  font-size: 30px;
 }
-
-header  h1{
-  float:left;
-  margin: 0;
-  font-size: 60px;
-  margin-bottom: 5px;
+.logo{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  position: absolute;
+   top: 5px;
+   right: 0;
+   left: 0;
+}
+.title{
+  padding-top: 45px;
+  padding-bottom: .5em;
+  position: absolute;
+   top: 66px;
+   right: 0;
+   left: 0;
+  font-weight: 200;
+  font-size: 10px;
   font-style: italic;
-  color: #52489C;
+}
 
-}
-header nav{
-  float:right;
-  margin-top: 10px;
-}
-header a:hover{
-  color:#524948;
-  font-weight: bold;
-}
-/* Home Section */
 
 .home{
-  min-height:400px;
-  background: url('https://images.unsplash.com/photo-1480223600438-985f45515145?auto=format&fit=crop&w=750&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat  0 -400px;
+  min-height: 400px;
+
+  background: url('./images/naz3.jpg') no-repeat center center fixed  ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  text-align: center;
-  background-position: 50%;
-  margin: 0 auto;
-  border-bottom: #997F7F 3px solid;
+  padding: 10em 0;
+  margin: 0;
+
+
 }
