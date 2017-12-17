@@ -1,3 +1,4 @@
+/*Global*/
 *{
   box-sizing: border-box;
   margin: 0;
@@ -16,11 +17,18 @@ body{
 
 
 }
-
+/*Header*/
+header{
+  text-align: center;
+}
 .title{
   display: flex;
   flex-direction:column;
   justify-content: center;
+
+}
+.flex-div{
+  background-color: #0000;
 }
 .luna{
   padding-top: 15px;
@@ -29,5 +37,36 @@ body{
    bottom: 10px;
    left:35px;
    right:-200px;
+ font-family: Raleway;
+
+}
+.subtitle{
+  padding-top: 10px;
+  position: absolute;
+   left:35px;
+   right:-85px;
+
+}
+.navbar{
+  display: flex;
+  flex-direction:row;
+  padding-top: 60px;
+
+}
+nav  a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#000000 ;
+  text-shadow: 2px 2px #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border:  double;
+  border-color: #B2B2B2;
+  border-radius: 50%;
+  font-weight: bold;
+}
+nav li{
+  display: inline;
+  padding: 0 20px 0 20px;
 
 }
