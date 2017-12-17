@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body{
   margin: 0;
@@ -10,15 +12,22 @@ body{
 .container{
   width : 95%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 4fr 1fr;
+  text-align: center;
+
 
 }
-.container > div {
-  background: #eee;
-  padding: 1em;
-}
 
-.container > div:nth-child(odd) {
-  background: #ddd;
+.title{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+.luna{
+  padding-top: 15px;
+  position: absolute;
+   top:35px;
+   bottom: 10px;
+   left:35px;
+   right:-200px;
+
 }
