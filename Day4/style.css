@@ -23,6 +23,7 @@ body{
 header{
   text-align: center;
   min-height: 70px;
+  border-bottom:  #B20000 3px  inset;
 }
 
 nav li{
@@ -70,4 +71,9 @@ nav a{
 }
 .subtitle{
   color:#B20000;
+}
+/*about section*/
+.about{
+  padding-top:10px;
+  color:#FF9999;
 }
