@@ -51,13 +51,9 @@ nav a{
   max-width: 960px;
   margin: 0 auto;
   padding: 32px;
+  border-radius: 10%;
 }
-.rose1{
-  padding-right:40px;
-}
-.rose2{
-  padding-left:40px;
-}
+
 .subtitle-product{
   text-align: center;
   padding-top: 20px;
@@ -67,6 +63,7 @@ nav a{
   flex-direction:column;
   justify-content: center;
   background-color:  #FF7F7F;
+
 }
 .product{
   display: flex;
