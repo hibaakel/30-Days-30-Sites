@@ -42,6 +42,10 @@ nav a{
   font-family: Sofia;
   border-bottom:  #FF4C4C 3px  double;
 }
+nav a:hover{
+  color:#7F0000;
+  font-weight: bold;
+}
 .flower{
   border:  #B20000 3px  dotted;
   background-color: #FB9898;
@@ -51,7 +55,6 @@ nav a{
   max-width: 960px;
   margin: 0 auto;
   padding: 32px;
-  border-radius: 10%;
 }
 
 .subtitle-product{
@@ -63,7 +66,18 @@ nav a{
   flex-direction:column;
   justify-content: center;
   background-color:  #FF7F7F;
-
+  border-top:  #B20000 2px  solid;
+  border-bottom: #B20000 2px  solid;
+}
+.rose1{
+  border-left:  #B20000 2px  solid;
+  border-top:  #B20000 2px  solid;
+  border-bottom: #B20000 2px  solid;
+}
+.rose2{
+  border-right:  #B20000 2px  solid;
+  border-top:  #B20000 2px  solid;
+  border-bottom: #B20000 2px  solid;
 }
 .product{
   display: flex;
