@@ -101,7 +101,42 @@ nav a:hover{
 }
 /*about section*/
 .about{
-  padding-top:10px;
-  min-height: 400px;
+  min-height: 500px;
   background-color: #FF9999;
+}
+.main-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.pic-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pic-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pic-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pic-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pic-4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-p{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
