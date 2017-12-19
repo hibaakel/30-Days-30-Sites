@@ -22,10 +22,6 @@ header{
   text-align: center;
   min-height: 70px;
   padding: 40px;
-  border-top:   #B20000 3px  solid;
-  border-bottom:    #B20000 3px  solid;
-  border-left:    #B20000 3px  dashed;
-  border-right:    #B20000 3px  dashed;
   background-color: #E57F7F;
 }
 
@@ -47,7 +43,6 @@ nav a:hover{
   font-weight: bold;
 }
 .flower{
-  border:  #B20000 3px  dotted;
   background-color: #FB9898;
   display: flex;
   flex-direction:row;
@@ -106,14 +101,14 @@ nav a:hover{
 }
 .main-div{
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   justify-content: flex-start;
-  width: 100%;
 }
 .pic-div{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px 20px 20px 20px;
 }
 .pic-1{
   display: flex;
@@ -126,17 +121,11 @@ nav a:hover{
   flex-direction: row;
   justify-content: center;
 }
-.pic-3{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.pic-4{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 .about-p{
   padding-top: 20px;
   padding-bottom: 20px;
+}
+#luna-pic{
+  border-radius: 50%;
 }
