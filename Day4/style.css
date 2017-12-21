@@ -22,7 +22,7 @@ header{
   text-align: center;
   min-height: 70px;
   padding: 40px;
-  background-color: #E57F7F;
+  background-color: #CC837F;
 }
 
 nav li{
@@ -33,17 +33,17 @@ nav a{
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
-  color: #ff0000;
-  text-shadow: 2px 2px #FF7F7F;
+  color: #661919;
+  text-shadow: 2px 2px #CC7F7F;
   font-family: Sofia;
-  border-bottom:  #FF4C4C 3px  double;
+  border-bottom:  #7F3333 3px  double;
 }
 nav a:hover{
   color:#7F0000;
   font-weight: bold;
 }
 .flower{
-  background-color: #FB9898;
+  background-color: #E59C99;
   display: flex;
   flex-direction:row;
   justify-content: center;
@@ -60,19 +60,27 @@ nav a:hover{
   display: flex;
   flex-direction:column;
   justify-content: center;
-  background-color:  #FF7F7F;
-  border-top:  #B20000 2px  solid;
-  border-bottom: #B20000 2px  solid;
+  background-color:  #E5827F;
+  border-top:  #B26866 2px  solid;
+  border-bottom: #B26866 2px  solid;
 }
 .rose1{
-  border-left:  #B20000 2px  solid;
-  border-top:  #B20000 2px  solid;
-  border-bottom: #B20000 2px  solid;
+  border-left:  #B26866 2px  solid;
+  border-top:  #B26866 2px  solid;
+  border-bottom: #B26866 2px  solid;
+  display: flex;
+  flex-direction: column;
+}
+.row-1{
+  display: flex;
+  flex-direction:row;
 }
 .rose2{
-  border-right:  #B20000 2px  solid;
-  border-top:  #B20000 2px  solid;
-  border-bottom: #B20000 2px  solid;
+  border-right:  #B26866 2px  solid;
+  border-top:  #B26866 2px  solid;
+  border-bottom: #B26866 2px  solid;
+  display: flex;
+  flex-direction: column;
 }
 .product{
   display: flex;
@@ -83,7 +91,7 @@ nav a:hover{
   padding-top: 40px;
   padding-right: 40px;
   padding-left: 20px;
-  color: #CC1919;
+  color:#994D4C ;
   font-family: Berkshire Swash;
 }
 .nav-product{
@@ -92,7 +100,7 @@ nav a:hover{
   padding-bottom: 20px;
 }
 .subtitle{
-  color:#B20000;
+  color:#994E4C;
 }
 /*about section*/
 .about{
