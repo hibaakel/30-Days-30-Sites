@@ -132,11 +132,7 @@ nav a:hover{
   padding-bottom: 20px;
   padding-left: 20px;
 }
-.about-p2{
-  padding-top: 40px;
-  padding-bottom: 70px;
 
-}
 .p-div{
 
   font-size: 14px;
@@ -165,7 +161,7 @@ nav a:hover{
   font-style: italic;
 }
 .next{
-  padding-top: 10px;
+  padding-top: 40px;
   font-size: 20px;
   font-family:fantasy;
   font-weight: 200;
@@ -182,4 +178,69 @@ nav a:hover{
 }
 .next a:hover{
   color:#B26966;
+}
+/* media query*/
+@media screen and (max-width: 699px) and (min-width: 200px) {
+  .header-flex{
+    width: 70vw;
+  }
+  .rose-1{
+    width: 1vw;
+  }
+  .rose-2{
+    width: 1vw;
+  }
+  #fs{
+    width: 2vw;
+  }
+}
+@media screen and (max-width: 699px) and (min-width: 200px) {
+  #span-luna{
+    font-size: 20px;
+    font-weight: normal;
+  }
+  #luna-about{
+    padding-right: 170px;
+    padding-left: 40px;
+  }
+  .luna-img{
+    padding-right: 170px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+  .about-p{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-div{
+    width: 60%;
+    padding-left: 40px;
+  }
+  .next{
+    font-size: 14px;
+    padding-right: 170px;
+    padding-left: 40px;
+  }
+  .pic-div{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .pic-1{
+    display: flex;
+    flex-direction:row;
+  }
+  .pic-2{
+    display: flex;
+    flex-direction:row;
+
+  }
+  .luna-about{
+    width: 10vw;
+  }
+  #wa{
+    width:20%;
+    height: 20%;
+  }
 }
