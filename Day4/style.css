@@ -147,9 +147,7 @@ nav a:hover{
   font-size: 50px;
   font-style: italic;
 }
-.luna-img{
-  padding-bottom: 80px;
-}
+
 #luna-pic{
   border-radius: 50%;
   border-color: #FF3366;
@@ -161,7 +159,7 @@ nav a:hover{
   font-style: italic;
 }
 .next{
-  padding-top: 40px;
+  padding-top: 120px;
   font-size: 20px;
   font-family:fantasy;
   font-weight: 200;
@@ -170,16 +168,22 @@ nav a:hover{
 }
 .next a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 70px;
   font-weight: bold;
   font-family:fantasy;
   font-style: italic;
-  color:#7F3633;
+  color:#E599A8;
+  background-color: #CC667B;
+  padding: 10px 10px 10px 10px;
+  border: 3px #7F3633 double;
+  border-radius: 10%;
+
 }
 .next a:hover{
   color:#B26966;
 }
 /* media query*/
+/*header section*/
 @media screen and (max-width: 699px) and (min-width: 200px) {
   .header-flex{
     width: 70vw;
@@ -194,7 +198,8 @@ nav a:hover{
     width: 2vw;
   }
 }
-@media screen and (max-width: 699px) and (min-width: 200px) {
+/*about section*/
+@media screen and (max-width: 699px) and (min-width: 220px) {
   #span-luna{
     font-size: 20px;
     font-weight: normal;
@@ -203,8 +208,13 @@ nav a:hover{
     padding-right: 170px;
     padding-left: 40px;
   }
-  .luna-img{
+  #luna-pic{
     padding-right: 170px;
+    border-radius: 0%;
+    height: 100px;
+  }
+  .luna-img{
+
     padding-left: 40px;
     padding-bottom: 10px;
   }
@@ -218,9 +228,12 @@ nav a:hover{
     padding-left: 40px;
   }
   .next{
-    font-size: 14px;
     padding-right: 170px;
     padding-left: 40px;
+    padding-top: 20px;
+  }
+  .next a{
+    font-size: 20px;
   }
   .pic-div{
     display: flex;
@@ -242,5 +255,21 @@ nav a:hover{
   #wa{
     width:20%;
     height: 20%;
+  }
+}
+/*fit iapd screen for the next div*/
+@media screen and (max-width: 800px) and (min-width: 700px) {
+  .next a{
+    font-size: 20px;
+  }
+  .next{
+    padding-top: 40px;
+  }
+}
+/*fit iphone 5screen for the luna-img div*/
+@media only screen and (width:320px){
+  .luna-img{
+    padding-left: 0;
+    padding-bottom: 10px;
   }
 }
