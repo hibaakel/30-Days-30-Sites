@@ -111,20 +111,22 @@ nav a:hover{
 .main-div{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .pic-div{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:flex-start ;
 
 }
 .pic-1{
+  flex-grow:1;
   display: flex;
   flex-direction: column;
 
 }
 .pic-2{
+  flex-grow:1;
   display: flex;
   flex-direction: column;
 
@@ -134,25 +136,28 @@ nav a:hover{
 .about-p{
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
+  flex-grow: 4;
 }
 .about-p2{
   padding-top: 20px;
   justify-content: center;
 }
-.ul-div{
-  padding-top: 20px;
+.p-div{
+
   font-size: 14px;
+  border: 3px #fff double;
 }
 
 #luna-about{
   font-family: Alegreya SC;
-  font-size: 70px;
+  font-size: 50px;
   font-style: italic;
 }
 #luna-img{
-  padding-bottom: 20px;
+  padding-bottom: 70px;
 }
 #luna-pic{
   border-radius: 50%;
@@ -160,8 +165,8 @@ nav a:hover{
 }
 #h4-luna{
   font-family: Alegreya SC;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 16px;
+  font-weight: 100;
   font-style: italic;
 }
 .next{
