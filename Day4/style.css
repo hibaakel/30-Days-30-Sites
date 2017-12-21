@@ -1,5 +1,8 @@
+/*Global*/
 *{
   box-sizing: border-box;
+  padding: 0;
+  margin: 0
 }
 body{
   margin: 0;
@@ -7,8 +10,532 @@ body{
   font-family: Raleway;
   background: pink ;
 }
-.container{
-  width : 95%;
-  margin: 0 auto;
+footer{
+  padding-top: 20px;
+  background-color:  #E59D99 ;
+  height:  50%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-style: italic;
+  color:white;
+}
 
+.container{
+  width : 100%;
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+/*Header*/
+header{
+  text-align: center;
+  min-height: 70px;
+  padding: 40px;
+  background-color: #CC837F;
+}
+
+nav li{
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #661919;
+  text-shadow: 2px 2px #CC7F7F;
+  font-family: Sofia;
+  border-bottom:  #7F3333 3px  double;
+}
+nav a:hover{
+  color:#7F0000;
+  font-weight: bold;
+}
+.flower{
+  background-color: #E59C99;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.subtitle-product{
+  text-align: center;
+  padding-top: 20px;
+}
+.header-flex{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  background-color:  #E5827F;
+  border-top:  #B26866 2px  solid;
+  border-bottom: #B26866 2px  solid;
+}
+.rose1{
+  border-left:  #B26866 2px  solid;
+  border-top:  #B26866 2px  solid;
+  border-bottom: #B26866 2px  solid;
+  display: flex;
+  flex-direction: column;
+}
+.row-1{
+  display: flex;
+  flex-direction:row;
+}
+.rose2{
+  border-right:  #B26866 2px  solid;
+  border-top:  #B26866 2px  solid;
+  border-bottom: #B26866 2px  solid;
+  display: flex;
+  flex-direction: column;
+}
+.product{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.luna2{
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 20px;
+  color:#994D4C ;
+  font-family: Berkshire Swash;
+}
+.nav-product{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subtitle{
+  color:#994E4C;
+}
+/*about section*/
+.about{
+  background-color: #E59D99;
+  font-weight: 300;
+  min-width: 500px;
+}
+
+.pic-div{
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  padding-right: 20px;
+
+}
+.pic-1{
+  display: flex;
+  flex-direction: column;
+}
+.pic-2{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.about-p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.p-div{
+
+  font-size: 14px;
+  font-family:fantasy;
+  font-weight: 200;
+  border: 3px #fff double;
+  padding: 20px 20px 20px 20px ;
+}
+
+#luna-about{
+  font-family: Merriweather;
+  font-size: 50px;
+  font-style: italic;
+}
+
+#luna-pic{
+  border-radius: 50%;
+}
+#span-luna{
+  font-family: Alegreya SC;
+  font-size: 16px;
+  font-weight: 100;
+  font-style: italic;
+}
+.next{
+  padding-top: 120px;
+  font-size: 20px;
+  font-family:Pangolin;
+  font-weight: 200;
+  font-style: italic;
+
+}
+.next a{
+  
+  color:#000;
+  background-color: #E59D99 ;
+  padding: 10px 10px 10px 10px;
+  border: 3px #fff  double;
+  border-radius: 20%;
+
+}
+.next a:hover{
+  color:#B26966;
+}
+
+
+
+
+
+/* Collection section*/
+.collection1{
+  min-width: 500px;
+  background-color: #E59D99;
+  border-bottom:  3px  #fff double;
+}
+.collection-title{
+  padding: 20px 20px 20px 20px;
+
+}
+.collection-title h2{
+  font-size: 50px;
+  font-family: Berkshire Swash;
+  color:#fff;
+
+}
+.col{
+  float: left;
+  width: 25%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #E59D99;
+}
+.luna-products{
+  list-style-type: none;
+  background: #fff;
+  color:#555;
+  border: 1px #555 solid;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+.luna-products:hover{
+  box-shadow: 0 10px 15px 0 #000;
+}
+.luna-products .header1{
+  background-color: #66B5CC;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.luna-products .header2{
+  background-color: pink;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.luna-products .header3{
+  background-color: #7FD8E5;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.luna-products .header4{
+  background-color: #D77FFF;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.luna-products li{
+  padding:20px;
+  border-bottom: 1px #eee solid;
+  text-align: center;
+}
+.luna-products .emph{
+  background-color: #f4f4f4;
+  font-size: 20px;
+}
+.luna-products .emph1{
+  background-color:#66B5CC ;
+  font-size: 20px;
+}
+.luna-products .emph2{
+  background-color: pink ;
+  font-size: 20px;
+}
+.luna-products .emph3{
+  background-color: #7FD8E5 ;
+  font-size: 20px;
+}
+.luna-products .emph4{
+  background-color: #D77FFF ;
+  font-size: 20px;
+}
+.button1{
+  background-color: #66B5CC;
+  border: none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button2{
+  background-color: pink;
+  border: none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button3{
+  background-color: #7FD8E5;
+  border: none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button4{
+  background-color: #D77FFF;
+  border: none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.collection-flex{
+  display: flex;
+  flex-direction: column;
+}
+/* Contact Us section*/
+.contactus{
+  min-width: 500px;
+  background-color: #E59D99;
+  border-bottom:  3px  #fff double;
+}
+.contactus-title{
+  padding: 20px 20px 20px 20px;
+}
+.contactus-title h2{
+  font-size: 50px;
+  font-family: Berkshire Swash;
+  color:#fff;
+}
+.form-flex{
+  display:flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.contactus-flex{
+justify-content: center;
+padding-top: 30px;
+padding-bottom:  30px;
+}
+.contactus-form{
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 1em;
+  border: 2px #fff dashed;
+  width: 70vh;
+  text-align: center;
+}
+.titleform{
+  background-color: #fff;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color:  #CC667B;
+  background-color:#E59D99 ;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 30px;
+}
+.info{
+  color: #CC667B;
+  margin: 1em 0;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: cursive;
+}
+
+.contactus-form textarea{
+  box-sizing: border-box;
+  width:60vw;
+  margin: .5em 0;
+}
+.fieldinfo{
+  box-sizing: border-box;
+  padding: 1em;
+  margin: .5em 0;
+}
+
+.button{
+  box-sizing: border-box;
+  padding: 1em;
+  background-color: #FFCCCC;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+  color:  #CC667B;
+  border: 2px #fff solid;
+}
+.contactus-social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.div-social{
+  padding: 10px 10px 10px 10px;
+  font-size: 40px;
+  color: #CC667B;
+}
+.icons{
+  color: #CC667B;
+}
+
+/* media query*/
+/*header section*/
+@media screen and (max-width: 699px) and (min-width: 200px) {
+  .header-flex{
+    width: 70vw;
+  }
+  .nav-product nav ul a{
+    font-size: 15px;
+  }
+  #fs{
+    display: none;
+  }
+}
+/*about section*/
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .pic-div{
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+      padding-right: 20px;
+
+    }
+    .contactus-form textarea{
+      width:20vw;
+    }
+
+}
+@media screen and (max-width: 699px) and (min-width: 220px) {
+  #span-luna{
+    font-weight: normal;
+  }
+  #luna-about{
+    padding-right: 170px;
+    padding-left: 40px;
+  }
+  #luna-pic{
+    padding-right: 170px;
+    border-radius: 0%;
+    height: 100px;
+  }
+  .luna-img{
+
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+  .about-p{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-div{
+    width: 60%;
+    padding-left: 40px;
+  }
+  .next{
+    padding-right: 170px;
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  .next a{
+    font-size: 20px;
+  }
+  .pic-div{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .pic-1{
+    display: flex;
+    flex-direction:row;
+  }
+  .pic-2{
+    display: flex;
+    flex-direction:row;
+
+  }
+  .luna-about{
+    width: 10vw;
+  }
+  #wa{
+    width:20%;
+    height: 20%;
+  }
+}
+
+/*fit iphone 5screen for the luna-img div*/
+@media only screen and (width:320px){
+  .luna-img{
+    padding-left: 0;
+    padding-bottom: 10px;
+  }
+  #span-luna{
+    font-size: 15px;
+  }
+
+}
+/*collection section*/
+/*contactus section*/
+@media  (max-width: 700px){
+  .col{
+    width: 70%;
+  }
+  .collection-title h2{
+    font-size: 30px;
+    padding-right: 100px;
+  }
+  .contact-main{
+    width: 70%;
+  }
+  .contactus-form{
+    width: 70%;
+  }
+
+}
+@media only screen and (width:320px){
+  .col{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 414px) and (min-width: 375px) {
+  .contactus-form textarea{
+    width:53vw;
+  }
 }
