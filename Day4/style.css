@@ -187,8 +187,56 @@ nav a:hover{
 .collection{
   min-width: 500px;
 }
+.collection-title{
+  padding: 20px 20px 20px 20px;
 
+}
+.collection-title h2{
+  font-size: 70px;
+  font-family: serif;
 
+}
+.col{
+  float: left;
+  width: 25%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.luna-products{
+  list-style-type: none;
+  background: #fff;
+  color:#555;
+  border: 1px #555 solid;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+.luna-products:hover{
+  box-shadow: 0 10px 15px 0 #000;
+}
+.luna-products .header{
+  background-color: #111;
+  color:#fff;
+  font-size: 25px;
+}
+.luna-products li{
+  padding:20px;
+  border-bottom: 1px #eee solid;
+  text-align: center;
+}
+.luna-products .emph{
+  background-color: #f4f4f4;
+  font-size: 20px;
+}
+.button{
+  background-color: #4CAf50;
+  border: none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
 
 /* media query*/
 /*header section*/
@@ -291,5 +339,10 @@ nav a:hover{
   }
   #span-luna{
     font-size: 15px;
+  }
+}
+@media  (max-width: 700px){
+  .col{
+    width: 100%;
   }
 }
