@@ -10,6 +10,9 @@ body{
   font-family: Raleway;
   background: pink ;
 }
+footer{
+  padding-top: 20px;
+}
 .container{
   width : 100%;
   margin: 0 ;
@@ -184,16 +187,18 @@ nav a:hover{
 }
 
 /* Collection section*/
-.collection{
+.collection1{
   min-width: 500px;
+  background-color: #E59D99;
 }
 .collection-title{
   padding: 20px 20px 20px 20px;
 
 }
 .collection-title h2{
-  font-size: 70px;
-  font-family: serif;
+  font-size: 50px;
+  font-family: Berkshire Swash;
+  color:#fff;
 
 }
 .col{
@@ -201,6 +206,7 @@ nav a:hover{
   width: 25%;
   padding: 8px;
   box-sizing: border-box;
+  background-color: #E59D99;
 }
 .luna-products{
   list-style-type: none;
@@ -214,10 +220,29 @@ nav a:hover{
 .luna-products:hover{
   box-shadow: 0 10px 15px 0 #000;
 }
-.luna-products .header{
-  background-color: #111;
+.luna-products .header1{
+  background-color: #66B5CC;
   color:#fff;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.luna-products .header2{
+  background-color: pink;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.luna-products .header3{
+  background-color: #7FD8E5;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.luna-products .header4{
+  background-color: #D77FFF;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 .luna-products li{
   padding:20px;
@@ -228,14 +253,85 @@ nav a:hover{
   background-color: #f4f4f4;
   font-size: 20px;
 }
-.button{
-  background-color: #4CAf50;
+.luna-products .emph1{
+  background-color:#66B5CC ;
+  font-size: 20px;
+}
+.luna-products .emph2{
+  background-color: pink ;
+  font-size: 20px;
+}
+.luna-products .emph3{
+  background-color: #7FD8E5 ;
+  font-size: 20px;
+}
+.luna-products .emph4{
+  background-color: #D77FFF ;
+  font-size: 20px;
+}
+.button1{
+  background-color: #66B5CC;
   border: none;
   color:#fff;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
+  font-weight: bold;
+}
+.button2{
+  background-color: pink;
+  border: none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button3{
+  background-color: #7FD8E5;
+  border: none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button4{
+  background-color: #D77FFF;
+  border: none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.next2{
+  padding-top: 60px;
+  font-size: 20px;
+  font-family:fantasy;
+  font-weight: 200;
+  font-style: italic;
+}
+.next2 a{
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  font-family:fantasy;
+  font-style: italic;
+  color:#E599A8;
+  background-color: #CC667B;
+  padding: 5px 10px 10px 10px;
+  border: 3px #7F3633 double;
+  border-radius: 10%;
+
+}
+.collection-flex{
+  display: flex;
+  flex-direction: column;
 }
 
 /* media query*/
@@ -341,8 +437,20 @@ nav a:hover{
     font-size: 15px;
   }
 }
+/*collection section*/
 @media  (max-width: 700px){
   .col{
-    width: 100%;
+    width: 70%;
+  }
+  .collection-title h2{
+    font-size: 30px;
+    padding-right: 100px;
+  }
+  .next2 a{
+    font-size: 20px;
+  }
+  .next2{
+    padding-top: 20px;
+    padding-right:100px;
   }
 }
