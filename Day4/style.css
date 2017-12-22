@@ -182,6 +182,14 @@ nav a:hover{
 .next a:hover{
   color:#B26966;
 }
+
+/* Collection section*/
+.collection{
+  min-width: 500px;
+}
+
+
+
 /* media query*/
 /*header section*/
 @media screen and (max-width: 699px) and (min-width: 200px) {
