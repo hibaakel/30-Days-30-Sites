@@ -163,7 +163,6 @@ nav a:hover{
 
 #luna-pic{
   border-radius: 50%;
-  border-color: #FF3366;
 }
 #span-luna{
   font-family: Alegreya SC;
@@ -320,26 +319,6 @@ nav a:hover{
   font-size: 18px;
   font-weight: bold;
 }
-.next2{
-  padding-top: 60px;
-  font-size: 20px;
-  font-family:fantasy;
-  font-weight: 200;
-  font-style: italic;
-}
-.next2 a{
-  text-decoration: none;
-  font-size: 40px;
-  font-weight: bold;
-  font-family:fantasy;
-  font-style: italic;
-  color:#E599A8;
-  background-color: #CC667B;
-  padding: 5px 10px 10px 10px;
-  border: 3px #7F3633 double;
-  border-radius: 10%;
-
-}
 .collection-flex{
   display: flex;
   flex-direction: column;
@@ -352,44 +331,79 @@ nav a:hover{
 }
 .contactus-title{
   padding: 20px 20px 20px 20px;
-
 }
 .contactus-title h2{
   font-size: 50px;
   font-family: Berkshire Swash;
   color:#fff;
-
 }
 .form-flex{
   display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.contactus-flex{
+justify-content: center;
+padding-top: 30px;
+padding-bottom:  30px;
 }
 .contactus-form{
   margin: 0 auto;
   box-sizing: border-box;
   padding: 1em;
+  border: 2px #fff dashed;
+  width: 70vh;
+  text-align: center;
 }
-.contact-form label{
-  color: #fff;
+.titleform{
+  background-color: #fff;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color:  #CC667B;
+  background-color:#E59D99 ;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 30px;
+}
+.info{
+  color: #CC667B;
   margin: 1em 0;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: cursive;
 }
 
 .contact-form textarea{
-  width: 99%;
+  width: 30vw;
   margin: .5em 0;
 }
-.field{
-  width: 60%;
+.fieldinfo{
   box-sizing: border-box;
   padding: 1em;
   margin: .5em 0;
 }
+
 .button{
   box-sizing: border-box;
   padding: 1em;
-  background-color: #fff;
-  border: none;
+  background-color: #FFCCCC;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: cursive;
+  border: 2px #fff solid;
+}
+.contactus-social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.div-social{
+  padding: 10px 10px 10px 10px;
+  font-size: 40px;
+  color: #CC667B;
 }
 
 /* media query*/
@@ -418,6 +432,7 @@ nav a:hover{
       padding-right: 20px;
 
     }
+
 }
 @media screen and (max-width: 699px) and (min-width: 220px) {
   #span-luna{
@@ -476,15 +491,7 @@ nav a:hover{
     height: 20%;
   }
 }
-/*fit iapd screen for the next div*/
-@media screen and (max-width: 800px) and (min-width: 700px) {
-  .next a{
-    font-size: 20px;
-  }
-  .next{
-    padding-top: 40px;
-  }
-}
+
 /*fit iphone 5screen for the luna-img div*/
 @media only screen and (width:320px){
   .luna-img{
@@ -494,8 +501,10 @@ nav a:hover{
   #span-luna{
     font-size: 15px;
   }
+
 }
 /*collection section*/
+/*contactus section*/
 @media  (max-width: 700px){
   .col{
     width: 70%;
@@ -504,11 +513,16 @@ nav a:hover{
     font-size: 30px;
     padding-right: 100px;
   }
-  .next2 a{
-    font-size: 20px;
+  .contact-main{
+    width: 70%;
   }
-  .next2{
-    padding-top: 20px;
-    padding-right:100px;
+  .contactus-form{
+    width: 70%;
+  }
+
+}
+@media only screen and (width:320px){
+  .col{
+    width: 60%;
   }
 }
