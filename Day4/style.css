@@ -12,7 +12,7 @@ body{
 }
 footer{
   padding-top: 20px;
-  background-color:  #E5827F ;
+  background-color:  #E59D99 ;
   height:  50%;
   text-align: center;
   font-size: 13px;
@@ -21,6 +21,7 @@ footer{
   font-style: italic;
   color:white;
 }
+
 .container{
   width : 100%;
   margin: 0 ;
@@ -120,7 +121,6 @@ nav a:hover{
   background-color: #E59D99;
   font-weight: 300;
   min-width: 500px;
-  border-bottom:  3px  #fff double;
 }
 
 .pic-div{
@@ -375,8 +375,9 @@ padding-bottom:  30px;
   font-family: cursive;
 }
 
-.contact-form textarea{
-  width: 30vw;
+.contactus-form textarea{
+  box-sizing: border-box;
+  width:60vw;
   margin: .5em 0;
 }
 .fieldinfo{
@@ -390,9 +391,10 @@ padding-bottom:  30px;
   padding: 1em;
   background-color: #FFCCCC;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: bold;
   font-style: italic;
   font-family: cursive;
+  color:  #CC667B;
   border: 2px #fff solid;
 }
 .contactus-social{
@@ -403,6 +405,9 @@ padding-bottom:  30px;
 .div-social{
   padding: 10px 10px 10px 10px;
   font-size: 40px;
+  color: #CC667B;
+}
+.icons{
   color: #CC667B;
 }
 
@@ -431,6 +436,9 @@ padding-bottom:  30px;
       justify-content:flex-start;
       padding-right: 20px;
 
+    }
+    .contactus-form textarea{
+      width:20vw;
     }
 
 }
@@ -524,5 +532,10 @@ padding-bottom:  30px;
 @media only screen and (width:320px){
   .col{
     width: 60%;
+  }
+}
+@media screen and (max-width: 414px) and (min-width: 375px) {
+  .contactus-form textarea{
+    width:53vw;
   }
 }
