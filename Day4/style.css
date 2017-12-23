@@ -12,6 +12,14 @@ body{
 }
 footer{
   padding-top: 20px;
+  background-color:  #E5827F ;
+  height:  50%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: sans-serif;
+  font-style: italic;
+  color:white;
 }
 .container{
   width : 100%;
@@ -112,7 +120,7 @@ nav a:hover{
   background-color: #E59D99;
   font-weight: 300;
   min-width: 500px;
-
+  border-bottom:  3px  #fff double;
 }
 
 .pic-div{
@@ -192,6 +200,7 @@ nav a:hover{
 .collection1{
   min-width: 500px;
   background-color: #E59D99;
+  border-bottom:  3px  #fff double;
 }
 .collection-title{
   padding: 20px 20px 20px 20px;
@@ -334,6 +343,12 @@ nav a:hover{
 .collection-flex{
   display: flex;
   flex-direction: column;
+}
+/* Contact Us section*/
+.contactus{
+  min-width: 500px;
+  background-color: #E59D99;
+  border-bottom:  3px  #fff double;
 }
 
 /* media query*/
