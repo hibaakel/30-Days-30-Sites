@@ -156,7 +156,7 @@ nav a:hover{
 }
 
 #luna-about{
-  font-family: Alegreya SC;
+  font-family: Merriweather;
   font-size: 50px;
   font-style: italic;
 }
@@ -173,7 +173,7 @@ nav a:hover{
 .next{
   padding-top: 120px;
   font-size: 20px;
-  font-family:fantasy;
+  font-family:Pangolin;
   font-weight: 200;
   font-style: italic;
 
@@ -182,18 +182,22 @@ nav a:hover{
   text-decoration: none;
   font-size: 40px;
   font-weight: bold;
-  font-family:fantasy;
+  font-family:Pangolin;
   font-style: italic;
   color:#E599A8;
   background-color: #CC667B;
   padding: 10px 10px 10px 10px;
-  border: 3px #7F3633 double;
+  border: 3px #7F3633 dotted;
   border-radius: 10%;
 
 }
 .next a:hover{
   color:#B26966;
 }
+
+
+
+
 
 /* Collection section*/
 .collection1{
