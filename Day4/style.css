@@ -171,24 +171,18 @@ nav a:hover{
   font-style: italic;
 }
 .next{
-  padding-top: 120px;
+  padding-top: 30px;
   font-size: 20px;
-  font-family:Pangolin;
-  font-weight: 200;
-  font-style: italic;
-
 }
 .next a{
-  
   color:#000;
-  background-color: #E59D99 ;
+  background-color: #E59D98 ;
   padding: 10px 10px 10px 10px;
-  border: 3px #fff  double;
-  border-radius: 20%;
-
+  border: 3px  #B26966  double;
+  border-radius: 30%;
 }
 .next a:hover{
-  color:#B26966;
+  color:#B26940;
 }
 
 
@@ -427,7 +421,7 @@ padding-bottom:  30px;
 /*about section*/
 
 @media screen
-  and (min-device-width: 1200px)
+  and (min-device-width: 900px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
     .pic-div{
@@ -470,8 +464,6 @@ padding-bottom:  30px;
     padding-left: 40px;
   }
   .next{
-    padding-right: 170px;
-    padding-left: 40px;
     padding-top: 20px;
   }
   .next a{
@@ -534,8 +526,19 @@ padding-bottom:  30px;
     width: 60%;
   }
 }
+
 @media screen and (max-width: 414px) and (min-width: 375px) {
   .contactus-form textarea{
     width:53vw;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 700px) {
+  .contactus-form textarea{
+    width:45vw;
+  }
+}
+ @media screen and (max-width: 2168px) and (min-width: 1601px) {
+  .contactus-form textarea{
+    width:30vw;
   }
 }
