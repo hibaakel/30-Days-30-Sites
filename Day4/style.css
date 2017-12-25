@@ -116,6 +116,9 @@ nav a:hover{
 .subtitle{
   color:#994E4C;
 }
+#wa{
+  width: 300px;
+}
 /*about section*/
 .about{
   background-color: #E59D99;
