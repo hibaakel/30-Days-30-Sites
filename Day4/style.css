@@ -152,8 +152,8 @@ nav a:hover{
 .p-div{
 
   font-size: 14px;
-  font-family:fantasy;
-  font-weight: 200;
+  font-family:Raleway;
+  font-weight: 100;
   border: 3px #fff double;
   padding: 20px 20px 20px 20px ;
 }
@@ -437,6 +437,9 @@ padding-bottom:  30px;
     .contactus-form textarea{
       width:20vw;
     }
+    #wa{
+      width: 300px;
+    }
 
 }
 @media screen and (max-width: 699px) and (min-width: 220px) {
@@ -528,6 +531,26 @@ padding-bottom:  30px;
   .col{
     width: 60%;
   }
+  #wa{
+    width: 80px;
+  }
+}
+@media only screen and (width:360px){
+
+  #wa{
+    width: 97px;
+  }
+}
+@media only screen and (width:768px){
+
+  #wa{
+    width: 220px;
+  }
+}
+@media screen and (max-width: 414px) and (min-width: 412px) {
+  #wa{
+    width:110px;
+  }
 }
 
 @media screen and (max-width: 414px) and (min-width: 375px) {
@@ -535,9 +558,9 @@ padding-bottom:  30px;
     width:53vw;
   }
 }
-@media screen and (min-width: 415px) and (max-width: 700px) {
+@media screen and (min-width: 415px) and (max-width: 898px) {
   .contactus-form textarea{
-    width:45vw;
+    width:40vw;
   }
 }
  @media screen and (max-width: 2168px) and (min-width: 1601px) {
