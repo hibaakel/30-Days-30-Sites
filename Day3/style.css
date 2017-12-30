@@ -2,86 +2,83 @@
   box-sizing: border-box;
 }
 body{
-  font-size:15px;
+  font-size:1rem;
   margin: 0;
   text-align: center;
   font-family: Raleway;
+  line-height: 1.5;
+  overflow-x: hidden;
+  color: #333;
 }
 /* Global*/
 .container{
-  width: 100%;
+  max-width: 960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin: auto;
-  overflow: hidden;
+  text-align: center;
 }
 
 ul{
  margin: 0;
  padding: 0;
 }
-/*Header*/
-
-header{
-  right: 0;
+.v-header{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color:#fff;
+}
+.fullscreen-video-warp{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.fullscreen-video-warp video{
+  min-width: 100%;
+  min-height: 100%;
+}
+.header-overlay{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top:0;
   left:0;
-  margin-top: 1em;
-  color:#242412;
-
+  background-color: #225470;
+  z-index: 1;
+  opacity: 0.75;
 }
- nav ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.header-content{
+  z-index: 1;
 }
-nav li{
-  display:inline-grid;
-  margin: 1em;
-  padding: .9rem;
-
-
+.header-content h1{
+  font-size: 50px;
+  margin-bottom: 0;
 }
-nav a{
-  color:#363612;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 3em;
-  font-weight: 900;
-  padding: .5em;
-  padding-top: .5em;
-  border: 3px  #a26c24  dashed;
-  background-color: #90906c;
-
+.header-content h2{
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
 }
-.logo{
-  padding-top: .5em;
-  padding-bottom: .5em;
-  position: absolute;
-   top: 5px;
-   right: 0;
-   left: 0;
+.section{
+  padding: 20px 0;
 }
-.title{
-  padding-top: 45px;
-  padding-bottom: .5em;
-  position: absolute;
-   top: 66px;
-   right: 0;
-   left: 0;
-  font-weight: 200;
-  font-size: 10px;
-  font-style: italic;
+.section-b{
+  background-color: #333;
+  color:#fff;
 }
-
-
-.home{
-  min-height: 400px;
-
-  background: url('./images/naz3.jpg') no-repeat center center fixed  ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 10em 0;
-  margin: 0;
-
-
+@media (max-width:960px){
+  .container{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+@media (min-width:961px){
+  .container{
+    padding-right: 16rem;
+    padding-left: 16rem;
+  }
 }
