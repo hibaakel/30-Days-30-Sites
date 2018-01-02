@@ -55,28 +55,74 @@ ul{
   z-index: 1;
 }
 .header-content h1{
-  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
   margin-bottom: 0;
 }
 .header-content h2{
-  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
   display: block;
   padding-bottom: 2rem;
 }
-.section{
-  padding: 20px 0;
-}
-.section-a{
-  background-image: url('ag-square.png');
-  background-color: #FDE3F6;
-}
-.section-b{
-  background-color: #d12a2a;
-  background-image: url('back-pattern.png');
-  color:#fff;
+.header-content ul a{
+  font-family:'Kaushan Script', cursive;
+  font-size :20px;
+  color: #fff;
+  text-decoration: none;
+  display:inline;
 }
 .img{
   width: 30%;
+}
+/*-------------------------*/
+.section{
+  padding: 20px 0;
+}
+.section-about{
+  background-image: url('./images/background-img/ag-square.png');
+  background-color: #FDE3F6;
+  text-align:justify;
+}
+.section-about h1{
+  font-family: 'Kalam', cursive;
+  color:#d12a2a;
+  font-size: 50px;
+}
+.section-about p{
+  font-family: 'Kalam', cursive;
+  color:#d12a2a;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.section-thing{
+  background-color: #d12a2a;
+  background-image:url('./images/background-img/back-pattern.png');
+  color:#fff;
+}
+.button{
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .5em 1.75em;
+}
+.button-accent{
+  color:#00ff6c;
+  border-color: #00ff6c;
+}
+.button-small{
+  font-size: .6rem
+}
+#img-item{
+  width: 250px;
+  height: 187px;
+}
+figure{
+  margin: 0;
 }
 @media (max-width:960px){
   .container{
