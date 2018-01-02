@@ -66,8 +66,13 @@ ul{
 .section{
   padding: 20px 0;
 }
+.section-a{
+  background-image: url('ag-square.png');
+  background-color: #FDE3F6;
+}
 .section-b{
-  background-color: #333;
+  background-color: #d12a2a;
+  background-image: url('back-pattern.png');
   color:#fff;
 }
 .img{
