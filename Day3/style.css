@@ -75,7 +75,7 @@ ul{
 }
 .header-content li{
   display: inline;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
   margin-bottom: 5px;
   font-style:oblique;
 }
@@ -83,30 +83,55 @@ ul{
   width: 30%;
 }
 /*-------------------------*/
+/*all the section*/
 .section{
   padding: 20px 0;
 }
+/*-------------------------*/
+/* About section*/
 .section-about{
   background-image: url('./images/background-img/ag-square.png');
   background-color: #FDE3F6;
-  text-align:justify;
+
+}
+.container-about{
+  max-width:960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: left;
 }
 .section-about h1{
   font-family: 'Kalam', cursive;
   color:#d12a2a;
   font-size: 50px;
 }
+h1::first-letter {
+    font-size: 150%;
+}
 .section-about p{
   font-family: 'Kalam', cursive;
   color:#d12a2a;
   font-size: 20px;
-  display: flex;
-  justify-content: flex-start;
 }
+/*-------------------------*/
+/* Thing to do section*/
 .section-thing{
   background-color: #d12a2a;
   background-image:url('./images/background-img/back-pattern.png');
   color:#fff;
+}
+.container-thing{
+  max-width:960px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+.section-thing h1{
+  font-family: 'Kalam', cursive;
+  color:#fff;
+  font-size: 50px;
 }
 .button{
   display: inline-block;
@@ -163,14 +188,25 @@ ul{
   justify-content:center;
 }
 
-
+/*-------------------------*/
+/* media query*/
 
 @media (max-width:960px){
   .container{
     padding-right: 3rem;
     padding-left: 3rem;
   }
-  
+  .container-about{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .div-1{
+    flex-direction: column;
+  }
+  .div-2{
+    flex-direction: column;
+  }
+
 }
 @media (min-width:961px){
   .container{
