@@ -187,6 +187,18 @@ h1::first-letter {
   flex-direction: row;
   justify-content:center;
 }
+/*-------------------------*/
+/* Event section*/
+.section-event{
+  background-color: #fff;
+  background-image:url('./images/background-img/arabesque.png');
+  color:#d12a2a;
+}
+.m-image{
+  border: 3px #d12a2a solid;
+  border-radius: 30%;
+  width: 30vh;
+}
 
 /*-------------------------*/
 /* media query*/
