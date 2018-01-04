@@ -199,6 +199,9 @@ h1::first-letter {
   border-radius: 30%;
   width: 30vh;
 }
+#myDIV{
+  display:none;
+}
 
 /*-------------------------*/
 /* media query*/
