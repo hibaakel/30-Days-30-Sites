@@ -199,8 +199,40 @@ h1::first-letter {
   border-radius: 30%;
   width: 30vh;
 }
-#myDIV{
+#event{
   display:none;
+}
+#event1{
+  display:none;
+}
+#event2{
+  display:none;
+}
+.total{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  width: 100%;
+}
+.gallery-music{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50vh;
+}
+.gallery-sport{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50vh;
+}
+#img-event{
+  width: 50vh;
+  height:50vh;
+}
+.button-small-music{
+  color:#000000;
+  font-size: .6rem
 }
 
 /*-------------------------*/

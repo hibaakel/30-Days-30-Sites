@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kaushan+Script|Playfair+Display:700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kalam:700|Kaushan+Script|Playfair+Display:700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet">
-
+    <!--font-awesome--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--favicon of the page--->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
@@ -110,22 +111,99 @@
       </section>
       <section class="section section-event">
           <div class="container">
-          <h1>NYC Events</h1>
-          <div class="music-event">
-            <img  class= "m-image" src="https://images.unsplash.com/photo-1472226717144-d38d91fc0d6c?auto=format&fit=crop&w=750&q=80" alt=""><br></br>
-            <button type="button" id="button" onclick="myFunction()" name="button">music-event</button>
-            <div id="myDIV">
-              This is my DIV element.
+              <h1>NYC Events</h1>
+              <div class="total">
+                <div class="music-event">
+                 <img  class= "m-image" src="https://images.unsplash.com/photo-1472226717144-d38d91fc0d6c?auto=format&fit=crop&w=750&q=80" alt=""><br></br>
+                 <input type="button" onclick="Showdiv()" value="music-event"><br></br>
+                 <div id="event">
+                   <div class="gallery-music">
+                     <!--- item 1--->
+                     <figure class="event-item">
+                       <img  id="img-event" src="./images/Nyc-event/music1.jpg" alt="">
+                       <figcaption class="img-desc">
+                         <h4>Sarah Stiles: Squirrel Heart</h4>
+                         <a href="#" class=" button button-accent button-small-music">Buy Tickets</a>
+                       </figcaption>
+                     </figure>
+
+                     <!--- item 2--->
+                     <figure class="event-item">
+                       <img  id="img-event" src="./images/Nyc-event/music2.jpg" alt="">
+                       <figcaption class="img-desc">
+                         <h4>Winter Jazzfest</h4>
+                         <a href="#" class=" button button-accent button-small-music">Buy Tickets</a>
+                       </figcaption>
+                     </figure>
+                   </div>
+
+                   <br>
+                   <button type="button" id="hide" onclick="Hidediv()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button><br></br>
+                 </div>
+               </div>
+              <div class="sport-event">
+                <img  class= "m-image" src="https://images.unsplash.com/photo-1488424138610-252b5576e079?auto=format&fit=crop&w=700&q=80" alt=""><br></br>
+                <input type="button" onclick="Showdiv1()" value="Sport-event"><br></br>
+                <div id="event1">
+                  <div class="gallery-sport">
+                    <!--- item 1--->
+                    <figure class="event-item">
+                      <img  id="img-event" src="./images/Nyc-event/sport1.jpg" alt="">
+                      <figcaption class="img-desc">
+                        <h4>Brooklyn Nets Basketball</h4>
+                        <a href="#" class=" button button-accent button-small-music">Buy Tickets</a>
+                      </figcaption>
+                    </figure>
+
+                    <!--- item 2--->
+                    <figure class="event-item">
+                      <img  id="img-event" src="./images/Nyc-event/sport2.jpg" alt="">
+                      <figcaption class="img-desc">
+                        <h4>New York Islanders Hockey</h4>
+                        <a href="#" class=" button button-accent button-small-music">Buy Tickets</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+
+                  <br>
+                  <button type="button" id="hide" onclick="Hidediv1()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button><br></br>
+              </div>
             </div>
 
+            <div class="Holiday Tours and Activities-event">
+              <img  class= "m-image" src="https://images.unsplash.com/photo-1485596811645-33056dc9c562?auto=format&fit=crop&w=751&q=80" alt=""><br></br>
+              <input type="button" onclick="Showdiv2()" value="Holiday Tours and Activities"><br></br>
+              <div id="event2">
+                <div class="gallery-sport">
+                  <!--- item 1--->
+                  <figure class="event-item">
+                    <img  id="img-event" src="./images/Nyc-event/holiday1.jpg" alt="">
+                    <figcaption class="img-desc">
+                      <h4>Christmas Lights in Dyker Heights Brooklyn</h4>
+                      <a href="#" class=" button button-accent button-small-music">Join Us</a>
+                    </figcaption>
+                  </figure>
 
+                  <!--- item 2--->
+                  <figure class="event-item">
+                    <img  id="img-event" src="./images/Nyc-event/holiday2.jpg" alt="">
+                    <figcaption class="img-desc">
+                      <h4>Private NYC Lights Tour by Limo or Party Bus</h4>
+                      <a href="#" class=" button button-accent button-small-music">Join Us</a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <br>
+                <button type="button" id="hide" onclick="Hidediv2()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button><br></br>
+            </div>
           </div>
 
-
           </div>
+        </div>
 
       </section>
-      <script src="main.js">
+      <script src="./js/main.js">
       </script>
 
 
