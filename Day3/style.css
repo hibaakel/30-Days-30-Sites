@@ -216,24 +216,44 @@ h1::first-letter {
 }
 .gallery-music{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 50vh;
+  flex-direction:row;
+  justify-content:center;
+  width: 50vw;
+  margin: 10px 10px 20px 20px;
+  padding:  10px 10px 20px 20px;
+
 }
+
 .gallery-sport{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 50vh;
+  width: 50vw;
+  margin: 10px 10px 20px 20px;
+  padding:  10px 10px 20px 20px;
+
+}
+.gallery-holiday{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50vw;
+  margin: 10px 10px 20px 20px;
+  padding:  10px 10px 20px 20px;
+}
+#hide{
+  width: 50%;
+  height: 50%;
 }
 #img-event{
-  width: 50vh;
-  height:50vh;
+  width:20vw;
+  height: 100px;
 }
 .button-small-music{
   color:#000000;
   font-size: .6rem
 }
+
 
 /*-------------------------*/
 /* media query*/
