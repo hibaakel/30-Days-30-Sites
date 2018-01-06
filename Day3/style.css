@@ -194,6 +194,11 @@ h1::first-letter {
   background-image:url('./images/background-img/arabesque.png');
   color:#d12a2a;
 }
+.section-event h1{
+  font-family: 'Kalam', cursive;
+  color:#d12a2a;
+  font-size: 50px;
+}
 .m-image{
   border: 3px #d12a2a solid;
   border-radius: 30%;
@@ -208,6 +213,35 @@ h1::first-letter {
 #event2{
   display:none;
 }
+#nyc-e{
+  text-transform: capitalize;
+  font-size: 150%;
+}
+#show-mst{
+  font-weight: 600;
+  border: 2px dotted #000000;
+  background: #d12a2a;
+  color: white;
+  font: bold 20px 'Kalam';
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+#hide{
+  position: relative;
+	height: 23px;
+  color: #eef5df;
+	border: 2px solid #eef5df;
+	background-color: #d12a2a;
+	border-radius: 50%;
+}
+.img-desc-event h4{
+  font-size: 15px;
+  font-weight: 100;
+  font-family: 'Kalam';
+}
+
+
 .total{
   display: flex;
   flex-direction: column;
@@ -241,17 +275,15 @@ h1::first-letter {
   margin: 10px 10px 20px 20px;
   padding:  10px 10px 20px 20px;
 }
-#hide{
-  width: 50%;
-  height: 50%;
-}
+
 #img-event{
   width:20vw;
   height: 100px;
 }
-.button-small-music{
+.button-music{
   color:#000000;
-  font-size: .6rem
+  background-color: #f3f3f3;
+
 }
 
 
