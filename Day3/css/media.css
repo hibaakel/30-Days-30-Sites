@@ -1,0 +1,57 @@
+/*-------------------------*/
+/* media query*/
+
+@media (max-width:960px){
+  .container{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .container-about{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .div-1{
+    flex-direction: column;
+  }
+  .div-2{
+    flex-direction: column;
+  }
+  #img-item{
+    width:40vh;
+  }
+
+}
+@media only screen and (max-width: 299px)and (min-width:100px){
+  #img-item{
+    width:20vh;
+  }
+}
+@media only screen and (max-width: 100px)and (min-width:50px){
+  #img-item{
+    width:10vh;
+  }
+}
+@media only screen and (width: 320px){
+  #img-item{
+    width:80vw;
+  }
+}
+@media only screen and (width: 768px){
+  .div-1{
+    flex-direction: row;
+  }
+  .div-2{
+    flex-direction: row;
+  }
+
+  #img-item{
+    width:20vh;
+  }
+}
+@media (min-width:961px){
+  .container{
+    padding-right: 16rem;
+    padding-left: 16rem;
+  }
+
+}

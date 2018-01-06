@@ -90,7 +90,7 @@ ul{
 /*-------------------------*/
 /* About section*/
 .section-about{
-  background-image: url('./images/background-img/ag-square.png');
+  background-image: url('../images/background-img/ag-square.png');
   background-color: #FDE3F6;
 
 }
@@ -118,7 +118,7 @@ h1::first-letter {
 /* Thing to do section*/
 .section-thing{
   background-color: #d12a2a;
-  background-image:url('./images/background-img/back-pattern.png');
+  background-image:url('../images/background-img/back-pattern.png');
   color:#fff;
 }
 .container-thing{
@@ -136,7 +136,7 @@ h1::first-letter {
 .button{
   display: inline-block;
   font-size: 1.15rem;
-  font-weight: bold;
+  font-weight: bolder;
   text-decoration: none;
   text-transform: uppercase;
   border-width: 2px;
@@ -191,7 +191,7 @@ h1::first-letter {
 /* Event section*/
 .section-event{
   background-color: #fff;
-  background-image:url('./images/background-img/arabesque.png');
+  background-image:url('../images/background-img/arabesque.png');
   color:#d12a2a;
 }
 .section-event h1{
@@ -225,10 +225,9 @@ h1::first-letter {
   font: bold 20px 'Kalam';
   padding: 4px;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 #hide{
-  position: relative;
 	height: 23px;
   color: #eef5df;
 	border: 2px solid #eef5df;
@@ -255,7 +254,6 @@ h1::first-letter {
   width: 50vw;
   margin: 10px 10px 20px 20px;
   padding:  10px 10px 20px 20px;
-
 }
 
 .gallery-sport{
@@ -283,64 +281,6 @@ h1::first-letter {
 .button-music{
   color:#000000;
   background-color: #f3f3f3;
-
-}
-
-
-/*-------------------------*/
-/* media query*/
-
-@media (max-width:960px){
-  .container{
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-  .container-about{
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-  .div-1{
-    flex-direction: column;
-  }
-  .div-2{
-    flex-direction: column;
-  }
-  #img-item{
-    width:40vh;
-  }
-
-}
-@media only screen and (max-width: 299px)and (min-width:100px){
-  #img-item{
-    width:20vh;
-  }
-}
-@media only screen and (max-width: 100px)and (min-width:50px){
-  #img-item{
-    width:10vh;
-  }
-}
-@media only screen and (width: 320px){
-  #img-item{
-    width:80vw;
-  }
-}
-@media only screen and (width: 768px){
-  .div-1{
-    flex-direction: row;
-  }
-  .div-2{
-    flex-direction: row;
-  }
-
-  #img-item{
-    width:20vh;
-  }
-}
-@media (min-width:961px){
-  .container{
-    padding-right: 16rem;
-    padding-left: 16rem;
-  }
+  font-family: cursive;
 
 }
