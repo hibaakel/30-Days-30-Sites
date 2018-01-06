@@ -219,7 +219,7 @@ h1::first-letter {
 }
 #show-mst{
   font-weight: 600;
-  border: 2px dotted #000000;
+  border: 2px dotted #f3f3f3;
   background: #d12a2a;
   color: white;
   font: bold 20px 'Kalam';
