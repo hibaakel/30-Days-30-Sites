@@ -142,6 +142,7 @@ h1::first-letter {
   border-width: 2px;
   border-style: solid;
   padding: .5em 1.75em;
+
 }
 .button-accent{
   color:#fff;
@@ -284,6 +285,11 @@ h1::first-letter {
   font-family: cursive;
 
 }
+#btn{
+  color:#000000;
+  background-color: #f3f3f3;
+  font-family: cursive;
+}
 /*-------------------------*/
 /* Hotels section*/
 .section-hotels{
@@ -292,10 +298,15 @@ h1::first-letter {
   color:#fff;
 }
 #hidehotels{
-  display: none;
+  display: block;
   height: 23px;
   color: #eef5df;
 	border: 2px solid #eef5df;
 	background-color: #d12a2a;
 	border-radius: 50%;
+}
+.flex-hotels{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

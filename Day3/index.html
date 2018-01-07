@@ -38,6 +38,7 @@
                   <li><a href="#">About</a></li>
                   <li><a href="#">Top Things to do</a></li>
                   <li><a href="#">NYC events</a></li>
+                  <li><a href="#">Hotels</a></li>
                 </ul>
               </nav>
             </div>
@@ -117,7 +118,7 @@
               <div class="total">
                 <div class="music-event">
                  <img  class= "m-image" src="./images/Nyc-event/music-event.jpg" alt=""><br></br>
-                 <input  id="show-mst"type="button"  onclick="Showdiv()" value="music-event"><br></br>
+                 <input  id="show-mst" type="button"  onclick="Showdiv()" value="music-event"><br></br>
                  <div id="event">
                    <div class="gallery-music">
                        <!--- music-item 1--->
@@ -125,6 +126,7 @@
                          <img  id="img-event" src="./images/Nyc-event/music1.jpg" alt="">
                          <figcaption class="img-desc-event">
                            <h4>Sarah Stiles: Squirrel Heart</h4>
+                           <input type="button" name="" value="Buy Tickets" id="btn">
                            <a href="#" class=" button button-accent button-small button-music">Buy Tickets</a>
                          </figcaption>
                        </figure>
@@ -205,25 +207,29 @@
         <div class="container">
           <h1>Top Hotels</h1>
           <div class="hotels">
-            <label for="choose your hotel by stars">choose your hotel by stars</label>
-            <select id="mySelect" name="hotels" required="choose your hotel" size="1">
-              <option value="" disabled selected hidden>Please Choose...</option>
-              <option value="5">5 stars </option>
-              <option value="4">4 stars</option>
-              <option value="3">3 stars</option>
-              <option value="2"> 2 stars</option>
-            </select>
-            <input type="submit" name="" value="submit" onclick="optionFunction()" onclick="styleFunction()">
+            <div class="flex-hotels">
+              <label for="choose your hotel by stars">choose your hotel by stars</label>
+              <select id="mySelect" name="hotels" required="choose your hotel" size="1">
+                <option value="" disabled selected hidden>Please Choose...</option>
+                <option value="5">5 stars </option>
+                <option value="4">4 stars</option>
+                <option value="3">3 stars</option>
+                <option value="2"> 2 stars</option>
+              </select>
+              <input type="submit" name="" value="submit" onclick="my_func()">
+              <button type="button" id="hidehotels" onclick="Hideoption()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button>
+            </div>
+
+            <br><br>
 
               <div id="mydiv">
-
+               <br><br>
               </div>
 
-            <button type="button" id="hidehotels" onclick="Hideoption()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button>
-          </div>
+
         </div>
       </section>
-      <script src="./js/main.js">
+      <script src="./js/main.js">require("./js/main.js")
       </script>
 
 
