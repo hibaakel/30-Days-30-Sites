@@ -56,10 +56,13 @@
 function optionFunction(){
   var x = document.getElementById("mySelect").options.length;
   var t = document.createTextNode(x+" Stars hotels");
-  var h = document.createElement("h4")
+  var newcontent = document.createElement('div');
+    newcontent.innerHTML = x+"Stars hotels";
+     var mydiv = document.getElementById("mydiv");
 
-  h.appendChild(t);
-  document.body.appendChild(h);
+     while (newcontent.firstChild) {
+           mydiv.appendChild(newcontent.firstChild);
+       }
 
 
 
