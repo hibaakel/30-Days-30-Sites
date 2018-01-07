@@ -292,7 +292,7 @@ h1::first-letter {
   color:#fff;
 }
 #hidehotels{
-  display: block;
+  display: none;
   height: 23px;
   color: #eef5df;
 	border: 2px solid #eef5df;

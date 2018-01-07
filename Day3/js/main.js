@@ -58,10 +58,15 @@ function optionFunction(){
   var index = document.getElementById("mySelect").selectedIndex;
   var option = document.getElementById("mySelect").options;
   var newcontent = document.createElement('div');
-  newcontent.innerHTML ="Hotels"+ " " + option[index].text;
+  newcontent.innerHTML =" List of Hotels"+ " " + option[index].text+" "+ ":";
+
   while (newcontent.firstChild) {
     mydiv.appendChild(newcontent.firstChild);
   }
+    function styleFunction(){
+     newcontent.style.padding="30px 10px 10px 10px";
+     newcontent.style.border="3px solid #000";
+    }
 
   var x = document.getElementById("hidehotels");
    if (x.style.display === "none") {
