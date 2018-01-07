@@ -54,23 +54,23 @@
 //**Hotels Functions**//
 //**********************//
 function optionFunction(){
-  var x = document.getElementById("mySelect").options.length;
-  var t = document.createTextNode(x+" Stars hotels");
+  var mydiv = document.getElementById("mydiv");
+  var index = document.getElementById("mySelect").selectedIndex;
+  var option = document.getElementById("mySelect").options;
   var newcontent = document.createElement('div');
-    newcontent.innerHTML = x+"Stars hotels";
-     var mydiv = document.getElementById("mydiv");
+  newcontent.innerHTML ="Hotels"+ " " + option[index].text;
+  while (newcontent.firstChild) {
+    mydiv.appendChild(newcontent.firstChild);
+  }
 
-     while (newcontent.firstChild) {
-           mydiv.appendChild(newcontent.firstChild);
-       }
-
-
-
-
+  var x = document.getElementById("hidehotels");
+   if (x.style.display === "none") {
+     x.style.display = "block";
+   }
 
 }
 function Hideoption(){
-  var mydiv = document.body.appendChild(h);
+  var mydiv =document.getElementById("mydiv") ;
   console.log(mydiv);
   mydiv.innerHTML = '';
 
