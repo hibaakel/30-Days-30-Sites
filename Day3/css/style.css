@@ -284,3 +284,10 @@ h1::first-letter {
   font-family: cursive;
 
 }
+/*-------------------------*/
+/* Hotels section*/
+.section-hotels{
+  background-color: #d12a2a;
+  background-image:url('../images/background-img/black-thread.png');
+  color:#fff;
+}

@@ -198,10 +198,28 @@
                 </div>
             </div>
           </div>
-
           </div>
         </div>
+      </section>
+      <section class="section section-hotels">
+        <div class="container">
+          <h1>Top Hotels</h1>
+          <div class="hotels">
+            <label for="choose your hotel by stars">choose your hotel by stars</label>
+            <select id="mySelect" name="hotels" required="choose your hotel" size="1">
+              <option value="" disabled selected hidden>Please Choose...</option>
+              <option value="5 stars ">5 stars </option>
+              <option value="4 stars">4 stars</option>
+              <option value="3 stars">3 stars</option>
+              <option value="2 stars"> 2 stars</option>
+            </select>
+            <input type="submit" name="" value="submit" onclick="optionFunction()">
 
+                
+
+            <button type="button" id="hide" onclick="Hideoption()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button>
+          </div>
+        </div>
       </section>
       <script src="./js/main.js">
       </script>
