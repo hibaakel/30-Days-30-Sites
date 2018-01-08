@@ -285,10 +285,17 @@ h1::first-letter {
   font-family: cursive;
 
 }
+
 #btn{
   color:#000000;
   background-color: #f3f3f3;
   font-family: cursive;
+}
+#btn:hover{
+  background-color: #d12a2a;
+}
+.show{
+  display: block;
 }
 /*-------------------------*/
 /* Hotels section*/
@@ -309,4 +316,11 @@ h1::first-letter {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+#mydiv{
+  display: block;
+}
+
+.contant-hotels{
+  display: none;
 }

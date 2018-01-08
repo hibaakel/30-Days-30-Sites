@@ -6,70 +6,51 @@
 //**********************//
 //Showdiv function//
  function Showdiv() {
-   var x = document.getElementById("event");
-    if (x.style.display !== "block") {
-      x.style.display = "block";
-    }
+   var x = document.getElementById("event").style.display= "block";
+
   }
-    var btn = document.getElementById("btn");
-      btn.addEventListener("onclick",  myfunction());
-      function myfunction()
-      {
-       btn.style.backgroundColor ="red";
-     };
-
-
-
 
  //Hidediv function//
  function Hidediv() {
-   var x = document.getElementById("event");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    }
+    var x = document.getElementById("event").style.display= "none";
+
  }
 
  //**Sport-Event Function**//
  //**********************//
+
  //Showdiv1 function//
  function Showdiv1() {
-   var x = document.getElementById("event1");
-    if (x.style.display !== "block") {
-      x.style.display = "block";
-    }
+   var x = document.getElementById("event1").style.display= "block";
  }
  //Hidediv1 function//
  function Hidediv1() {
-   var x = document.getElementById("event1");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    }
+   var x = document.getElementById("event1").style.display= "none";
  }
+
  //**Holiday-Event Function**//
  //**********************//
+
  //Showdiv2 function//
  function Showdiv2() {
-   var x = document.getElementById("event2");
-    if (x.style.display !== "block") {
-      x.style.display = "block";
-    }
+   var x = document.getElementById("event2").style.display= "block";
  }
  //Hidediv1 function//
  function Hidediv2() {
-   var x = document.getElementById("event2");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    }
+    var x = document.getElementById("event2").style.display= "none";
  }
 
 
 //**********************//
 //**Hotels Functions**//
 //**********************//
+
+//**Submit button Functions**//
+//**********************//
 function my_func() {
   optionFunction();
   styleFunction();
-  showbtn();
+  contentFunction();
 }
   function optionFunction(){
     var mydiv = document.getElementById("mydiv");
@@ -84,24 +65,44 @@ function my_func() {
   }
       function styleFunction(){
         var mydiv = document.getElementById("mydiv");
-       mydiv.style.padding="30px 10px 10px 10px";
-       mydiv.style.border="3px solid #000";
+       mydiv.style.fontWeight="bold";
+       mydiv.style.fontSize="30px";
+      }
+      function contentFunction(){
+        var index = document.getElementById("mySelect").selectedIndex;
+        var option = document.getElementById("mySelect").options;
+        var num = option[index].value;
+        if(num==='5'){
+          var x = document.getElementById("ev").style.display= "block";
+        }
+        if(num==='4'){
+          var x = document.getElementById("ev1").style.display= "block";
+        }
+        if(num==='3'){
+          var x = document.getElementById("ev2").style.display= "block";
+        }
+        if(num==='2'){
+          var x = document.getElementById("ev").style.display= "block";
+        }
       }
 
-
-
-
-
-
-
+      //**clean button Functions**//
+      //**********************//
+function my_func2() {
+ Hideoption();
+ Hidecontent();
+}
 
 
 function Hideoption(){
   var mydiv =document.getElementById("mydiv") ;
   console.log(mydiv);
   mydiv.innerHTML = '';
-  mydiv.style.padding="";
-  mydiv.style.border="";
-
+}
+function Hidecontent(){
+  var empty = document.querySelector("#ev").style.display= "none";
+  var empty = document.querySelector("#ev1").style.display= "none";
+  var empty = document.querySelector("#ev2").style.display= "none";
+  var empty = document.querySelector("#ev3").style.display= "none";
 
 }

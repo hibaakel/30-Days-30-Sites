@@ -119,15 +119,14 @@
                 <div class="music-event">
                  <img  class= "m-image" src="./images/Nyc-event/music-event.jpg" alt=""><br></br>
                  <input  id="show-mst" type="button"  onclick="Showdiv()" value="music-event"><br></br>
-                 <div id="event">
+                 <div class="show" id="event">
                    <div class="gallery-music">
                        <!--- music-item 1--->
                        <figure class="event-item">
                          <img  id="img-event" src="./images/Nyc-event/music1.jpg" alt="">
                          <figcaption class="img-desc-event">
                            <h4>Sarah Stiles: Squirrel Heart</h4>
-                           <input type="button" name="" value="Buy Tickets" id="btn">
-                           <a href="#" class=" button button-accent button-small button-music">Buy Tickets</a>
+                           <a href="#" class=" button button-accent button-small button-music"id="btn">Buy Tickets</a>
                          </figcaption>
                        </figure>
 
@@ -136,7 +135,7 @@
                          <img  id="img-event" src="./images/Nyc-event/music2.jpg" alt="">
                          <figcaption class="img-desc-event">
                            <h4>Winter Jazzfest</h4>
-                           <a href="#" class=" button button-accent button-small button-music">Buy Tickets</a>
+                           <a href="#" class=" button button-accent button-small button-music"id="btn">Buy Tickets</a>
                          </figcaption>
                        </figure>
 
@@ -148,14 +147,14 @@
               <div class="sport-event">
                 <img  class= "m-image" src="./images/Nyc-event/sport-event.jpg" alt=""><br></br>
                 <input id="show-mst" type="button" onclick="Showdiv1()" value="Sport-event"><br></br>
-                <div id="event1">
+                <div class="show" id="event1">
                   <div class="gallery-sport">
                     <!--- sport-item 1--->
                     <figure class="event-item">
                       <img  id="img-event" src="./images/Nyc-event/sport1.jpg" alt="">
                       <figcaption class="img-desc-event">
                         <h4>Brooklyn Nets Basketball</h4>
-                        <a href="#" class=" button button-accent button-small button-music">Buy Tickets</a>
+                        <a href="#" class=" button button-accent button-small button-music"id="btn">Buy Tickets</a>
                       </figcaption>
                     </figure>
 
@@ -164,7 +163,7 @@
                       <img  id="img-event" src="./images/Nyc-event/sport2.jpg" alt="">
                       <figcaption class="img-desc-event">
                         <h4>New York Islanders Hockey</h4>
-                        <a href="#" class=" button button-accent button-small button-music">Buy Tickets</a>
+                        <a href="#" class=" button button-accent button-small button-music"id="btn">Buy Tickets</a>
                       </figcaption>
                     </figure>
                     <!--- close button--->
@@ -176,14 +175,14 @@
             <div class="Holiday Tours and Activities-event">
               <img  class= "m-image" src="./images/Nyc-event/holiday-event.jpg" alt=""><br></br>
               <input  id="show-mst" type="button" onclick="Showdiv2()" value="Holiday Tours and Activities"><br></br>
-              <div id="event2">
+              <div class="show" id="event2">
                 <div class="gallery-holiday">
                   <!---holiday- item 1--->
                   <figure class="event-item">
                     <img  id="img-event" src="./images/Nyc-event/holiday1.jpg" alt="">
                     <figcaption class="img-desc-event">
                       <h4>Christmas Lights in Dyker Heights Brooklyn</h4>
-                      <a href="#" class=" button button-accent button-small button-music">Join Us</a>
+                      <a href="#" class=" button button-accent button-small button-music"id="btn">Join Us</a>
                     </figcaption>
                   </figure>
 
@@ -192,7 +191,7 @@
                     <img  id="img-event" src="./images/Nyc-event/holiday2.jpg" alt="">
                     <figcaption class="img-desc-event">
                       <h4>Private NYC Lights Tour by Limo or Party Bus</h4>
-                      <a href="#" class=" button button-accent button-small button-music">Join Us</a>
+                      <a href="#" class=" button button-accent button-small button-music" id="btn">Join Us</a>
                     </figcaption>
                   </figure>
                   <!---close button--->
@@ -211,19 +210,34 @@
               <label for="choose your hotel by stars">choose your hotel by stars</label>
               <select id="mySelect" name="hotels" required="choose your hotel" size="1">
                 <option value="" disabled selected hidden>Please Choose...</option>
-                <option value="5">5 stars </option>
-                <option value="4">4 stars</option>
-                <option value="3">3 stars</option>
-                <option value="2"> 2 stars</option>
+                <option value="5">5 Stars </option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2"> 2 Stars</option>
               </select>
               <input type="submit" name="" value="submit" onclick="my_func()">
-              <button type="button" id="hidehotels" onclick="Hideoption()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button>
+              <button type="button" id="hidehotels" onclick="my_func2()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button>
             </div>
 
-            <br><br>
-
               <div id="mydiv">
+
                <br><br>
+              </div>
+              <div id="ev" class="contant-hotels">
+                <p>5Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              </div>
+              <div id="ev1" class="contant-hotels">
+                <p>4Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              </div>
+              <div id="ev2" class="contant-hotels">
+                <p>3Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              </div>
+              <div id="ev3" class="contant-hotels">
+                <p>2Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
               </div>
 
 
