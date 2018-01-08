@@ -304,6 +304,11 @@ h1::first-letter {
   background-image:url('../images/background-img/black-thread.png');
   color:#fff;
 }
+.section-hotels h1{
+  font-family: 'Kalam', cursive;
+  color:#fff;
+  font-size: 50px;
+}
 #hidehotels{
   display: block;
   height: 23px;

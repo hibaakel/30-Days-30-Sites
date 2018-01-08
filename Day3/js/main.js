@@ -47,27 +47,9 @@
 
 //**Submit button Functions**//
 //**********************//
-function my_func() {
-  optionFunction();
-  styleFunction();
-  contentFunction();
-}
-  function optionFunction(){
-    var mydiv = document.getElementById("mydiv");
-    var index = document.getElementById("mySelect").selectedIndex;
-    var option = document.getElementById("mySelect").options;
-    var newcontent = document.createElement('p');
-    newcontent.innerHTML =" List of Hotels"+ " " + option[index].text+" "+ ":";
-    while (newcontent.firstChild) {
-      mydiv.appendChild(newcontent.firstChild);
-    }
 
-  }
-      function styleFunction(){
-        var mydiv = document.getElementById("mydiv");
-       mydiv.style.fontWeight="bold";
-       mydiv.style.fontSize="30px";
-      }
+//**Function Show the Content of our dives**//
+
       function contentFunction(){
         var index = document.getElementById("mySelect").selectedIndex;
         var option = document.getElementById("mySelect").options;
@@ -82,27 +64,25 @@ function my_func() {
           var x = document.getElementById("ev2").style.display= "block";
         }
         if(num==='2'){
-          var x = document.getElementById("ev").style.display= "block";
+          var x = document.getElementById("ev3").style.display= "block";
         }
       }
-
-      //**clean button Functions**//
-      //**********************//
-function my_func2() {
- Hideoption();
- Hidecontent();
-}
-
-
-function Hideoption(){
-  var mydiv =document.getElementById("mydiv") ;
-  console.log(mydiv);
-  mydiv.innerHTML = '';
-}
+//**********************//
+//**clean button Functions**//
+//**********************//
+ function my_func2(){
+    Hidecontent();
+    backtofirst();
+  }
+  //**Function Hide the Content of our dives**//
 function Hidecontent(){
   var empty = document.querySelector("#ev").style.display= "none";
   var empty = document.querySelector("#ev1").style.display= "none";
   var empty = document.querySelector("#ev2").style.display= "none";
   var empty = document.querySelector("#ev3").style.display= "none";
 
+}
+//**function make the select options back to the first choice**//
+function backtofirst(){
+  var x =document.getElementById("mySelect").selectedIndex = 0;
 }
