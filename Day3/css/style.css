@@ -378,3 +378,9 @@ h1::first-letter {
   height: 18px;
   color: #fff;
 }
+#stars{
+  font-size:30px;
+  font-weight: 200;
+  font-family: cursive;
+  color:#fff;
+}
