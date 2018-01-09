@@ -325,11 +325,10 @@ h1::first-letter {
 }
 #hidehotels{
   display: block;
-  height: 23px;
+  height: 37px;
   color: #eef5df;
 	border: 2px solid #eef5df;
 	background-color: #d12a2a;
-	border-radius: 50%;
 }
 .flex-hotels{
   display: flex;
