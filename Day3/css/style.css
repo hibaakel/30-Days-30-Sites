@@ -346,6 +346,30 @@ h1::first-letter {
   width: 300px;
   height: 200px;
 }
-#img-icon{
-  width: 5vh;
+.border-img{
+  border:4px double #fff;
+}
+.desc-service{
+  border:3px solid #fff;
+}
+.btn-book{
+  border:2px dashed #fff;
+  border-radius: 5px;
+
+}
+.btn-book:hover{
+  background-color: #FFE233;
+  color:#d12a2a;
+  border:2px solid #d12a2a;
+}
+  h5 a{
+  text-decoration: none;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  color:#fff;
+}
+#i{
+  width:20px;
+  height: 20px;
+  color: #fff;
 }
