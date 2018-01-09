@@ -329,3 +329,23 @@ h1::first-letter {
 .contant-hotels{
   display: none;
 }
+.collection{
+  display:flex;
+  flex-direction: column;
+}
+.img-flex{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#hotel-img{
+  margin: 10px;
+  border: 3px #fff dotted;
+  padding: 20px 20px 10px 10px;
+  width: 300px;
+  height: 200px;
+}
+#img-icon{
+  width: 5vh;
+}
