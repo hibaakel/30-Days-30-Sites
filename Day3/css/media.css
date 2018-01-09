@@ -70,6 +70,14 @@
     width: 20vh;
   }
 }
+@media (max-width:388px){
+  #hotel-img{
+  width: 17vh;
+}
+@media (max-width:282px){
+  #hotel-img{
+  width: 12vh;
+}
 @media (max-width:700px){
   .section-hotels h1{
     font-size: 40px;
