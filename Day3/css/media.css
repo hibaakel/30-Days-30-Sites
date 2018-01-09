@@ -50,6 +50,12 @@
   #hotel-img{
     width: 40vw;
   }
+  .header-content h1{
+    font-size: 50px;
+  }
+  .header-content h2{
+    font-size: 25px;
+  }
 }
 @media only screen and (width: 768px){
   .div-1{
@@ -62,12 +68,33 @@
     flex-direction: row;
   }
 
+  .header-content ul a{
+    padding:0 3px 0 3px;
 
+    font-size :35px;
+  }
+  .header-content h2{
+    font-size: 40px;
+  }
   #img-item{
     width:20vh;
   }
   #hotel-img{
     width: 20vh;
+  }
+}
+
+@media only screen and (width: 1024px){
+  .header-content ul a{
+    padding:0 3px 0 3px;
+
+    font-size :35px;
+  }
+  .header-content h2{
+    font-size: 45px;
+  }
+  .container{
+    padding-left: 10rem;
   }
 }
 @media (max-width:388px){
