@@ -29,16 +29,15 @@
           </div>
           <div class="header-overlay"></div>
             <div class="header-content">
-
               <h1>New York City</h1>
               <img class="img" src="./images/background-img/newyork.png" alt="">
               <h2>The Big Apple</h2>
               <nav>
                 <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Top Things to do</a></li>
-                  <li><a href="#">NYC events</a></li>
-                  <li><a href="#">Hotels</a></li>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Things">Top Things to do</a></li>
+                  <li><a href="#Event">NYC events</a></li>
+                  <li><a href="#Hotels">Hotels</a></li>
                 </ul>
               </nav>
             </div>
@@ -47,6 +46,7 @@
       </header>
       <section class="section section-about">
           <div class="container-about">
+            <a name="About"></a>
             <h1>About</h1>
             <p>New York City is composed of five boroughs. While Manhattan and Staten Island are islands, Brooklyn and Queens are geographically part of Long Island, and the Bronx is attached to the US mainland. The islands are linked by bridges, tunnels and ferries.</p>
             <p>Manhattan is roughly 13.4 miles long and about 2.3 miles wide at its widest. Except at its northern and southern tips, the borough’s avenues run roughly north and south, and streets run east and west. One-way thoroughfares are common, with traffic moving east on even-numbered streets and west on odd-numbered streets. Fifth Avenue divides the island into east and west sides (for example, locations on 57th Street west of Fifth Avenue are designated “W. 57th St.,” and east of Fifth Avenue, they’re “E. 57th St.”). </p>
@@ -56,6 +56,7 @@
       </section>
       <section class="section section-thing">
         <div class="container-thing">
+          <a name="Things"></a>
           <h1>Top Things to do</h1>
           <div class="div-1">
             <!--- item 1--->
@@ -114,6 +115,7 @@
       </section>
       <section class="section section-event">
           <div class="container">
+            <a name="Event"></a>
               <h1>NYC <span id="nyc-e">e</span>vents</h1>
               <div class="total">
                 <div class="music-event">
@@ -204,10 +206,11 @@
       </section>
       <section class="section section-hotels">
         <div class="container">
+          <a name="Hotels"></a>
           <h1>Top <span id="nyc-e">h</span>otels</h1>
           <div class="hotels">
             <div class="flex-hotels">
-              <label for="choose your hotel by stars">choose your hotel by stars</label>
+              <label  id="choose"for="Choose your hotel by stars">choose your hotel by stars</label>
               <select id="mySelect" name="hotels" required="choose your hotel" size="1">
                 <option value="" disabled selected hidden>Please Choose...</option>
                 <option value="5">5 Stars </option>
@@ -215,7 +218,7 @@
                 <option value="3">3 Stars</option>
                 <option value="2"> 2 Stars</option>
               </select>
-              <input type="submit" name="" value="submit" onclick="contentFunction()">
+              <input id="btn-submit" type="submit" name="" value="Submit" onclick="contentFunction()">
               <button type="button" id="hidehotels" onclick="my_func2()" name="button"><img  id ="ii"src="./images/favicon/clean1.png" alt=""></button>
             </div>
             <!---five stars hotels--->

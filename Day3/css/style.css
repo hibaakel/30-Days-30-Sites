@@ -225,7 +225,6 @@ h1::first-letter {
   color: white;
   font: bold 20px 'Kalam';
   padding: 4px;
-  cursor: pointer;
   border-radius: 5px;
 }
 #hide{
@@ -309,6 +308,21 @@ h1::first-letter {
   color:#fff;
   font-size: 50px;
 }
+#btn-submit{
+ background: #d12a2a;
+ color: white;
+ border-style: solid;
+ border-color: #fff;
+ width: 15vh;
+ height: 5vh;
+ font:100 15px arial, sans-serif;
+ text-shadow:none;
+}
+#btn-submit :hover{
+  background-color: #B21919;
+  font-weight: bold;
+  font:bold 15px arial, sans-serif;
+}
 #hidehotels{
   display: block;
   height: 23px;
@@ -383,4 +397,24 @@ h1::first-letter {
   font-weight: 200;
   font-family: cursive;
   color:#fff;
+}
+#mySelect{
+  background: #d12a2a;
+
+  color: white;
+
+  border-style: solid;
+
+  border-color: #fff;
+
+  width: 15vh;
+  height: 5vh;
+
+  font: 200 10px , sans-serif;
+
+ text-shadow:none;
+}
+#mySelect :hover{
+  background-color: #B21919;
+  font-weight: bold;
 }
