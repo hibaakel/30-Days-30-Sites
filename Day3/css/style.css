@@ -333,6 +333,7 @@ h1::first-letter {
 .flex-hotels{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 #mydiv{
@@ -416,4 +417,12 @@ h1::first-letter {
 #mySelect :hover{
   background-color: #B21919;
   font-weight: bold;
+}
+#choose{
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 15px;
+  font-family:'Kalam', cursive;
+  text-align: left;
 }
