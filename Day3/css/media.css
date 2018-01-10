@@ -27,12 +27,36 @@
   }
 
 }
-@media only screen and (width: 1024px){
+@media only screen and (width: 768px){
   .flex-hotels{
-    width:40vw;
+    width:60vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+  .flex-hotel1{
+    flex-direction: column;
+
+  }
+
+  }
+}
+@media only screen and (width: 1024px){
+  .flex-hotels{
+    width:60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .flex-hotel1{
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  @media only screen and (width: 320px){
+    #hotel-img{
+      width: 20vw;
+    }
   }
 
 }
