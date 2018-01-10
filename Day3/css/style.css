@@ -426,3 +426,15 @@ h1::first-letter {
   font-family:'Kalam', cursive;
   text-align: left;
 }
+/*-------------------------*/
+/* Map section*/
+.section-map{
+  background-color: #f3f3f3;
+  background-image:url('../images/background-img/black-mamba.png');
+  color:#d12a2a;
+}
+.section-map h1{
+  font-family: 'Kalam', cursive;
+  color:#d12a2a;
+  font-size: 50px;
+}
