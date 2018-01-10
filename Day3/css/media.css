@@ -1,6 +1,9 @@
 /*-------------------------*/
 /* media query*/
-
+@media only screen and (width: 320px){
+  #hotel-img{
+    width:25vh;
+  }
 @media (max-width:960px){
   .container{
     padding-right: 3rem;
@@ -55,10 +58,7 @@
   }
 
   }
-  @media only screen and (width: 320px){
-    #hotel-img{
-      width:25vh;
-    }
+
 
 @media (min-width:961px){
   .container{
