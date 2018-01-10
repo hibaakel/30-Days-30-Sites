@@ -27,137 +27,15 @@
   }
 
 }
-@media only screen and (max-width: 299px)and (min-width:100px){
-  #img-item{
-    width:20vh;
-  }
-  #hotel-img{
-    width: 20vh;
-  }
-}
-@media only screen and (max-width: 100px)and (min-width:50px){
-  #img-item{
-    width:10vh;
-  }
-  #hotel-img{
-    width: 10vh;
-  }
-}
-@media only screen and (width: 320px){
-  #img-item{
-    width:80vw;
-  }
-  #hotel-img{
-    width: 40vw;
-  }
-  .header-content h1{
-    font-size: 50px;
-  }
-  .header-content h2{
-    font-size: 25px;
-  }
-  .section-hotels .container h1{
-      font-size: 40px;
-  }
-  .flex-hotels{
-    display :flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-  }
-  #hidehotels{
-    height: 26px;
-
-}
-@media only screen and (width: 414px){
-  .section-hotels .container h1{
-      font-size: 35px;
-  }
-
-}
-@media only screen and (width: 375px){
-  #hidehotels{
-    height: 23px;
-
- }
- .flex-hotels{
-   display :flex;
-   flex-direction:column;
-   justify-content: space-between;
- }
-}
-@media only screen and (width: 768px){
-  .div-1{
-    flex-direction: row;
-  }
-  .div-2{
-    flex-direction: row;
-  }
-  .img-flex{
-    flex-direction: row;
-  }
-
-  .header-content ul a{
-    padding:0 3px 0 3px;
-
-    font-size :35px;
-  }
-  .header-content h2{
-    font-size: 40px;
-  }
-  #img-item{
-    width:20vh;
-  }
-  #hotel-img{
-    width: 20vh;
-  }
-}
-
 @media only screen and (width: 1024px){
-  .header-content ul a{
-    padding:0 3px 0 3px;
-
-    font-size :35px;
-  }
-  .header-content h2{
-    font-size: 45px;
-  }
-  .container{
-    padding-left: 10rem;
-  }
-}
-@media (max-width:388px){
-  #hotel-img{
-  width: 17vh;
-}
-@media (max-width:282px){
-  #hotel-img{
-  width: 12vh;
-}
-@media (max-width:700px){
-  .section-hotels h1{
-    font-size: 40px;
-  }
-  .section-event h1{
-    font-size: 40px;
-  }
-  .section-thing h1{
-    font-size: 40px;
-  }
-  .section-about h1{
-    font-size: 40px;
-  }
   .flex-hotels{
-    display :flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
+    width:40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
-
-
 }
-
-
-
 
 @media (min-width:961px){
   .container{

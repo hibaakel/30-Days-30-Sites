@@ -210,16 +210,20 @@
           <h1>Top <span id="nyc-e">h</span>otels</h1>
           <div class="hotels">
             <div class="flex-hotels">
-              <label  id="choose"for="Choose your hotel by stars">choose your hotel by stars</label>
-              <select id="mySelect" name="hotels" required="choose your hotel" size="1">
-                <option value="" disabled selected hidden>Please Choose...</option>
-                <option value="5">5 Stars </option>
-                <option value="4">4 Stars</option>
-                <option value="3">3 Stars</option>
-                <option value="2"> 2 Stars</option>
-              </select>
-              <input id="btn-submit" type="submit" name="" value="Submit" onclick="contentFunction()">
-              <button type="button" id="hidehotels" onclick="my_func2()" name="button"><img  id ="ii"src="./images/favicon/clean1.png" alt=""></button>
+              <div class="flex-hotel1">
+                <label  id="choose"for="Choose your hotel by stars">choose your hotel by stars</label>
+                <select id="mySelect" name="hotels" required="choose your hotel" size="1">
+                  <option value="" disabled selected hidden>Please Choose...</option>
+                  <option value="5">5 Stars </option>
+                  <option value="4">4 Stars</option>
+                  <option value="3">3 Stars</option>
+                  <option value="2"> 2 Stars</option>
+                </select>
+              </div>
+              <div class="flex-hotel1">
+                <input id="btn-submit" type="submit" name="" value="Submit" onclick="contentFunction()">
+                <button type="button" id="hidehotels" onclick="my_func2()" name="button"><img  id ="ii"src="./images/favicon/clean1.png" alt=""></button>
+              </div>
             </div>
             <!---five stars hotels--->
               <div id="ev" class="contant-hotels">

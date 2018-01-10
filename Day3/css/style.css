@@ -332,9 +332,15 @@ h1::first-letter {
 }
 .flex-hotels{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-hotel1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #mydiv{
   display: block;
@@ -399,19 +405,13 @@ h1::first-letter {
   color:#fff;
 }
 #mySelect{
-  background: #d12a2a;
-
+  background-color: #d12a2a;
   color: white;
-
   border-style: solid;
-
   border-color: #fff;
-
   width: 15vh;
   height: 5vh;
-
   font: 200 10px , sans-serif;
-
  text-shadow:none;
 }
 #mySelect :hover{
@@ -422,7 +422,7 @@ h1::first-letter {
   margin-bottom: 5px;
   font-weight: 100;
   font-style: italic;
-  font-size: 15px;
+  font-size: 20px;
   font-family:'Kalam', cursive;
   text-align: left;
 }
