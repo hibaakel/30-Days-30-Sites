@@ -53,13 +53,12 @@
     justify-content: space-between;
 
   }
+
+  }
   @media only screen and (width: 320px){
     #hotel-img{
-      width: 20vw;
+      width:25vh;
     }
-  }
-
-}
 
 @media (min-width:961px){
   .container{
