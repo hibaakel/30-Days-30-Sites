@@ -438,9 +438,15 @@ h1::first-letter {
   color:#d12a2a;
   font-size: 50px;
 }
-#map{
-  height="450";
+#mapid{
+  height: 180px;
 
-  border:0;
+
+
+}
+#map{
+  height: 400px;
+
+
 
 }

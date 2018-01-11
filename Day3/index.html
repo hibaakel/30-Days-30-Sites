@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <!--link with media query page-->
     <link rel="stylesheet" href="./css/media.css" type="text/css">
+    <!--link with Leaflet CSS file-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <!--link with Leaflet JavaScript file -->
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+     integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+      crossorigin="">
+    </script>
     <!--Google fonts-->
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
@@ -634,33 +646,42 @@
       </section>
       <section  class="section section-map" >
         <div class="container">
+          <h1>Nyc <span id="nyc-e">m</span>ap</h1>
+
 
           <div id="map">
-            <h1>Nyc <span id="nyc-e">m</span>ap</h1>
-
-
-
-
-
-
-
-
 
           </div>
 
-
-
-
-
-
-
-
-
         </div>
+
+
+        <script>
+        var map = L.map('map',{
+         center: [40.758700379161006, -73.95652770996094],
+         zoom: 15
+        });
+
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+       }).addTo(map);
+
+        </script>
+
+    <script>
+
+    var map = L.map('map',{scrollWheelZoom:false}).setView([40.758700379161006, -73.95652770996094], 15);
+
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    </script>
 
       </section>
       <script src="./js/main.js">require("./js/main.js")
       </script>
+      <script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
       <script>
       function initMap() {
         var options ={
