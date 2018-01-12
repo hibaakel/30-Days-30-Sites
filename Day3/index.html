@@ -8,18 +8,6 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <!--link with media query page-->
     <link rel="stylesheet" href="./css/media.css" type="text/css">
-    <!--link with Leaflet CSS file-->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
-    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
-    crossorigin=""/>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-
-   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-    <!--link with Leaflet JavaScript file -->
-    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-     integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-      crossorigin="">
-    </script>
     <!--Google fonts-->
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
@@ -644,60 +632,46 @@
               </div>
         </div>
       </section>
-      <section  class="section section-map" >
+      <section  class="section section-service" >
         <div class="container">
-          <h1>Nyc <span id="nyc-e">m</span>ap</h1>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2895712842!2d-74.26056062651388!3d40.69766840215833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sil!4v1515711101845" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <h1>Nyc <span id="nyc-e">s</span>ervice</h1>
+          <div class="option-service">
+             <label id="checknyc" for="">Nyc-Map</label>
+              <input id="checkmap" type="checkbox" name="nyc-map" value="nyc map">
+              <label id="checknyc" for="">Search</label>
+              <input id="checksearch" type="checkbox" name="search" value="search" > <br><br>
+              <input type="submit" name="" value="Submit"onclick="serviceFunction()">
 
+          </div>
+          <div id="search">
+            <div class="flex-search">
+             <label  id="search-l" for="">Search :</label>
+             <input id="search-t" type="text" name="" value="Search">
+             <input  id ="s-ex" type="button" name="" value="Exict">
+           </div>
+          </div>
 
           <div id="map">
-
+            <div class="flex-map">
+              <label  id="map-l" for="">Nyc Map</label><br>
+              <div class="map-b">
+                  <iframe id="i-f" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2702705411!2d-73.70017525079271!3d40.69767172294493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z16DXmdeVINeZ15XXqNenLCDXkNeo16bXldeqINeU15HXqNeZ16o!5e0!3m2!1siw!2sil!4v1515776111241" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <input  id ="ex" type="button" name="" value="Exict">
+            </div>
           </div>
 
         </div>
 
 
-        <script>
-        var map = L.map('map',{
-         center: [40.758700379161006, -73.95652770996094],
-         zoom: 15
-        });
 
-        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-       }).addTo(map);
 
-        </script>
 
-    <script>
-
-    var map = L.map('map',{scrollWheelZoom:false}).setView([40.758700379161006, -73.95652770996094], 15);
-
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    </script>
 
       </section>
       <script src="./js/main.js">require("./js/main.js")
       </script>
-      <script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
-      <script>
-      function initMap() {
-        var options ={
-          zoom:8,
-          center:{lat:40.730610,lng:-73.935242}
 
-        }
-        var map= new google.maps.Map(document.getElementById('map'),options)
-      }
-
-
-      </script>
-      <script async defer scr="https://maps.googleapis.com/maps/api/js&key=AIzaSyAxqJdOkK2x7UROOzVzrDCopBfVK1z6hw4&callback=initMap">
-
-      </script>
 
 
 

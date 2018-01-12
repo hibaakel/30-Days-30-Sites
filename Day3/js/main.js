@@ -86,3 +86,22 @@ function Hidecontent(){
 function backtofirst(){
   var x =document.getElementById("mySelect").selectedIndex = 0;
 }
+//**********************//
+//**Services Functions**//
+//**********************//
+
+//**Submit button Function**//
+//**********************//
+function serviceFunction() {
+
+  var y= document.getElementById("checkmap") ;
+  if(y.checked) {
+    var x = document.getElementById("map").style.display= "block";
+  }
+  var z= document.getElementById("checksearch") ;
+  if(z.checked) {
+    var a = document.getElementById("search").style.display= "block";
+  }
+
+
+}

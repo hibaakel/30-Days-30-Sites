@@ -428,25 +428,88 @@ h1::first-letter {
 }
 /*-------------------------*/
 /* Map section*/
-.section-map{
+.section-service{
   background-color: #f3f3f3;
   background-image:url('../images/background-img/climpek.png');
   color:#d12a2a;
+  display: flex;
+  justify-content: center;
 }
-.section-map h1{
+.section-service h1{
   font-family: 'Kalam', cursive;
   color:#d12a2a;
   font-size: 50px;
 }
-#mapid{
-  height: 180px;
 
-
-
-}
 #map{
-  height: 400px;
-
-
-
+  display: none;
+  padding: 20px 0;
+  padding-top: 10px;
+}
+#search{
+  display:none;
+  padding: 20px 0;
+  padding-top: 10px;
+}
+#checknyc{
+  font-family: 'Kalam', cursive;
+  color:#d12a2a;
+  font-size: 20px;
+}
+#search-l{
+  font-family: 'Kalam', cursive;
+  color:#d12a2a;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-right: 7px;
+}
+#search-t{
+  border:3px #d12a2a solid;
+  margin-right: 2px;
+  background: white url('../images/favicon/icon.svg') left no-repeat;
+  padding-left: 40px;
+}
+#s-ex{
+  display: block;
+  height: 37px;
+  color: #eef5df;
+	border: 2px solid #333;
+	background-color: #d12a2a;
+  font-family: 'Kalam', cursive;
+  font-size:15px;
+  border-radius: 20%;
+  margin-left: 2px;
+}
+#map-l{
+  font-family: 'Kalam', cursive;
+  color:#d12a2a;
+  font-size: 15px;
+}
+.map-b{
+  border: 3px solid #d12a2a;
+  width: 310px;
+  height: 210px;
+}
+#ex{
+  display: block;
+  height: 37px;
+  width: 310px;
+  color: #eef5df;
+  border: 2px solid #333;
+  background-color: #d12a2a;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Kalam', cursive;
+  font-size: 15px;
+}
+.flex-map{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-search{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
 }
