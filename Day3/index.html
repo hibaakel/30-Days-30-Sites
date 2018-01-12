@@ -3,33 +3,785 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Nazareth | Tourist Attraction</title>
+    <title>Newyork City | Tourist Attraction</title>
     <!--link with css page-->
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <!--link with media query page-->
+    <link rel="stylesheet" href="./css/media.css" type="text/css">
     <!--Google fonts-->
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Playfair+Display:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kaushan+Script|Playfair+Display:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kalam:700|Kaushan+Script|Playfair+Display:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet">
+    <!--font-awesome--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--favicon of the page--->
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="container">
-      <header class="home">
-        <div class="logo">
-          <img src="./images/nazlogo-main.png" alt="logo">
-        </div>
-        <div class="title">
-          <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">History</a></li>
-              <li><a href="#">Gallery</a></li>
-            </ul>
-          </nav>
-        </div>
+
+      <header class="v-header container">
+        <div class="fullscreen-video-warp">
+          <video src="./video/NycTraffic.mp4" autoplay="" loop="">
+          </video>
+          </div>
+          <div class="header-overlay"></div>
+            <div class="header-content">
+              <h1>New York City</h1>
+              <img class="img" src="./images/background-img/newyork.png" alt="">
+              <h2>The Big Apple</h2>
+              <nav>
+                <ul>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Things">Top Things to do</a></li>
+                  <li><a href="#Event">NYC events</a></li>
+                  <li><a href="#Hotels">Hotels</a></li>
+                  <li><a href="#Services">Services</a></li>
+                </ul>
+              </nav>
+            </div>
+
+
       </header>
+      <section class="section section-about">
+          <div class="container-about">
+            <a name="About"></a>
+            <h1>About</h1>
+            <p>New York City is composed of five boroughs. While Manhattan and Staten Island are islands, Brooklyn and Queens are geographically part of Long Island, and the Bronx is attached to the US mainland. The islands are linked by bridges, tunnels and ferries.</p>
+            <p>Manhattan is roughly 13.4 miles long and about 2.3 miles wide at its widest. Except at its northern and southern tips, the borough’s avenues run roughly north and south, and streets run east and west. One-way thoroughfares are common, with traffic moving east on even-numbered streets and west on odd-numbered streets. Fifth Avenue divides the island into east and west sides (for example, locations on 57th Street west of Fifth Avenue are designated “W. 57th St.,” and east of Fifth Avenue, they’re “E. 57th St.”). </p>
+            <p>As you move farther east or west from Fifth Avenue, street addresses increase, usually in increments of 100 from one block to the next. For north-south avenues, 20 blocks equals a mile, and the street numbers increase as you go uptown. Blocks can be a useful measure of distance, but keep in mind your direction: walking uptown from 1st Street to 6th Street is about a quarter of a mile, but walking the same number of blocks crosstown, from First Avenue to Sixth Avenue, is approximately a mile.</p>
+          </div>
+
+      </section>
+      <section class="section section-thing">
+        <div class="container-thing">
+          <a name="Things"></a>
+          <h1>Top Things to do</h1>
+          <div class="div-1">
+            <!--- item 1--->
+            <figure class="Thing-item">
+              <img  id="img-item" src="./images/Things to Do/ball-fields.jpg" alt="">
+              <figcaption class="img-desc">
+                <h4>Central Park</h4>
+                <a href="#" class=" button button-accent button-small">More Info</a>
+              </figcaption>
+            </figure>
+            <!--- item 2--->
+            <figure class="Thing-item">
+              <img id="img-item" src="./images/Things to Do/11-museum.jpg" alt="">
+              <figcaption class="img-desc">
+                <h4>The National 9/11 Memorial & Museum</h4>
+                <a href="#" class=" button button-accent button-small">More Info</a>
+              </figcaption>
+              </figure>
+              <!--- item 3--->
+              <figure class="Thing-item">
+                <img  id="img-item" src="./images/Things to Do/large.jpg" alt="">
+                <figcaption class="img-desc">
+                  <h4>Manhattan Skyline</h4>
+                  <a href="#" class=" button button-accent button-small">More Info</a>
+                </figcaption>
+                </figure>
+          </div>
+          <div class="div-2">
+            <!--- item 4--->
+            <figure class="Thing-item">
+              <img  id="img-item"src="./images/Things to Do/metropolitan.jpg" alt="">
+              <figcaption class="img-desc">
+                <h4>The Metropolitan Museum of Art</h4>
+                <a href="#" class=" button button-accent button-small">More Info</a>
+              </figcaption>
+            </figure>
+            <!--- item 5--->
+            <figure class="Thing-item">
+              <img  id="img-item" src="./images/Things to Do/view.jpg" alt="">
+              <figcaption class="img-desc">
+                <h4>Top of the Rock Observation Deck</h4>
+                <a href="#" class=" button button-accent button-small">More Info</a>
+              </figcaption>
+            </figure>
+            <!--- item 6--->
+            <figure class="Thing-item">
+              <img  id="img-item" src="./images/Things to Do/square.jpg" alt="">
+              <figcaption class="img-desc">
+                <h4>Times Square</h4>
+                <a href="#" class=" button button-accent button-small">More Info</a>
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+      <section class="section section-event">
+          <div class="container">
+            <a name="Event"></a>
+              <h1>NYC <span id="nyc-e">e</span>vents</h1>
+              <div class="total">
+                <div class="music-event">
+                 <img  class= "m-image" src="./images/Nyc-event/music-event.jpg" alt=""><br></br>
+                 <input  id="show-mst" type="button"  onclick="Showdiv()" value="Music-event"><br></br>
+                 <div class="show" id="event">
+                   <div class="gallery-music">
+                       <!--- music-item 1--->
+                       <figure class="event-item">
+                         <img  id="img-event" src="./images/Nyc-event/music1.jpg" alt="">
+                         <figcaption class="img-desc-event">
+                           <h4>Sarah Stiles: Squirrel Heart</h4>
+                           <a href="#" class=" button button-accent button-small button-music"id="btn">Buy Tickets</a>
+                         </figcaption>
+                       </figure>
+
+                       <!---music- item 2--->
+                       <figure class="event-item">
+                         <img  id="img-event" src="./images/Nyc-event/music2.jpg" alt="">
+                         <figcaption class="img-desc-event">
+                           <h4>Winter Jazzfest</h4>
+                           <a href="#" class=" button button-accent button-small button-music"id="btn">Buy Tickets</a>
+                         </figcaption>
+                       </figure>
+
+                     <!--- close button--->
+                     <button type="button" id="hide" onclick="Hidediv()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button><br></br>
+                   </div>
+                 </div>
+               </div>
+              <div class="sport-event">
+                <img  class= "m-image" src="./images/Nyc-event/sport-event.jpg" alt=""><br></br>
+                <input id="show-mst" type="button" onclick="Showdiv1()" value="Sport-event"><br></br>
+                <div class="show" id="event1">
+                  <div class="gallery-sport">
+                    <!--- sport-item 1--->
+                    <figure class="event-item">
+                      <img  id="img-event" src="./images/Nyc-event/sport1.jpg" alt="">
+                      <figcaption class="img-desc-event">
+                        <h4>Brooklyn Nets Basketball</h4>
+                        <a href="#" class=" button button-accent button-small button-music"id="btn">Buy Tickets</a>
+                      </figcaption>
+                    </figure>
+
+                    <!--- sport-item 2--->
+                    <figure class="event-item">
+                      <img  id="img-event" src="./images/Nyc-event/sport2.jpg" alt="">
+                      <figcaption class="img-desc-event">
+                        <h4>New York Islanders Hockey</h4>
+                        <a href="#" class=" button button-accent button-small button-music"id="btn">Buy Tickets</a>
+                      </figcaption>
+                    </figure>
+                    <!--- close button--->
+                    <button type="button" id="hide" onclick="Hidediv1()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button><br></br>
+                  </div>
+              </div>
+            </div>
+
+            <div class="Holiday Tours and Activities-event">
+              <img  class= "m-image" src="./images/Nyc-event/holiday-event.jpg" alt=""><br></br>
+              <input  id="show-mst" type="button" onclick="Showdiv2()" value="Holiday Tours and Activities"><br></br>
+              <div class="show" id="event2">
+                <div class="gallery-holiday">
+                  <!---holiday- item 1--->
+                  <figure class="event-item">
+                    <img  id="img-event" src="./images/Nyc-event/holiday1.jpg" alt="">
+                    <figcaption class="img-desc-event">
+                      <h4>Christmas Lights in Dyker Heights Brooklyn</h4>
+                      <a href="#" class=" button button-accent button-small button-music"id="btn">Join Us</a>
+                    </figcaption>
+                  </figure>
+
+                  <!---holiday- item 2--->
+                  <figure class="event-item">
+                    <img  id="img-event" src="./images/Nyc-event/holiday2.jpg" alt="">
+                    <figcaption class="img-desc-event">
+                      <h4>Private NYC Lights Tour by Limo or Party Bus</h4>
+                      <a href="#" class=" button button-accent button-small button-music" id="btn">Join Us</a>
+                    </figcaption>
+                  </figure>
+                  <!---close button--->
+                    <button type="button" id="hide" onclick="Hidediv2()" name="button"><i class="fa fa-times" aria-hidden="true"></i></button><br></br>
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-hotels">
+        <div class="container">
+          <a name="Hotels"></a>
+          <h1>Top <span id="nyc-e">h</span>otels</h1>
+          <div class="hotels">
+            <div class="flex-hotels">
+              <div class="flex-hotel1">
+                <label  id="choose"for="Choose your hotel by stars">choose your hotel by stars</label>
+                <select id="mySelect" name="hotels" required="choose your hotel" size="1">
+                  <option value="" disabled selected hidden>Please Choose...</option>
+                  <option value="5">5 Stars </option>
+                  <option value="4">4 Stars</option>
+                  <option value="3">3 Stars</option>
+                  <option value="2"> 2 Stars</option>
+                </select>
+              </div>
+              <div class="flex-hotel1">
+                <input id="btn-submit" type="submit" name="" value="Submit" onclick="contentFunction()">
+                <button type="button" id="hidehotels" onclick="my_func2()" name="button"><img  id ="ii"src="./images/favicon/clean1.png" alt=""></button>
+              </div>
+            </div>
+            <!---five stars hotels--->
+              <div id="ev" class="contant-hotels">
+                <h2 id="stars">Top of Hotels 5 Stars</h2>
+               <div class="collection">
+                 <div class="img-flex">
+                   <div class="border-img">
+                     <figure>
+                       <img id="hotel-img" src="./images/Hotels/5-stars/kimpton.jpg" alt="">
+                       <figcaption>
+                         <h4>Kimpton Hotel Eventi</h4>
+                           <div class="desc-service">
+                             <h5>
+                               <i class="fa fa-eye" aria-hidden="true"></i>
+                               <label for="">3,503 reviews</label>
+                               <br>
+                               <i class="fa fa-cutlery" aria-hidden="true"></i>
+                               <label for="">Restaurant</label><br>
+                               <img id ="i" src="./images/favicon/no-smoke.png" alt="">
+                               <label for="">Non-Smoking Hotel</label><br>
+                               <label for="">#1 Best Value of 470 hotels in New York City</label><br><br>
+                               <a class="btn-book" href="#">Book now</a>
+                              </h5>
+                           </div>
+                       </figcaption>
+                     </figure>
+                   </div>
+
+                   <div class="border-img">
+                   <figure>
+                     <img id="hotel-img" src="./images/Hotels/5-stars/Loews.jpg" alt="">
+                     <figcaption>
+                       <h4>Loews Regency New York Hotel</h4>
+                       <div class="desc-service">
+                         <h5>
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                         <label for="">1,684 reviews</label>
+                         <br>
+                         <i class="fa fa-wifi" aria-hidden="true"></i>
+                         <label for="">Free wifi</label><br>
+                         <img id ="i" src="./images/favicon/no-smoke.png" alt="">
+                         <label for="">Non-Smoking Hotel</label><br>
+                         <label for="">#15 Best Value of 470 hotels in New York City</label><br><br>
+                         <a class="btn-book" href="#">Book now</a>
+                       </h5>
+                       </div>
+                     </figcaption>
+                   </div>
+                 </div>
+
+                 <div class="img-flex">
+                   <div class="border-img">
+                   <figure>
+                     <img id="hotel-img" src="./images/Hotels/5-stars/Viceroy.jpg" alt="">
+                     <figcaption>
+                       <h4>Viceroy Central Park New York</h4>
+                        <div class="desc-service">
+                          <h5>
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                          <label for="">1,439 reviews</label>
+                          <br>
+                          <i class="fa fa-wifi" aria-hidden="true"></i>
+                          <label for="">Free wifi</label><br>
+                          <img id ="i" src="./images/favicon/no-smoke.png" alt="">
+                          <label for="">Non-Smoking Hotel</label><br>
+                          <label for="">#2 Best Value of 470 hotels in New York City</label><br><br>
+                          <a class="btn-book" href="#">Book now</a>
+                        </h5>
+                        </div>
+                     </figcaption>
+                   </figure>
+                 </div>
+
+                 <div class="border-img">
+                    <figure>
+                       <img id="hotel-img" src="./images/Hotels/5-stars/Langham.jpg" alt="">
+                       <figcaption>
+                         <h4>The Langham New York Fifth Avenue</h4>
+                         <div class="desc-service">
+                           <h5>
+                             <i class="fa fa-eye" aria-hidden="true"></i>
+                             <label for="">2,353 reviews</label><br>
+                             <i class="fa fa-wifi" aria-hidden="true"></i>
+                             <label for="">Free wifi</label><br>
+                             <img id ="i" src="./images/favicon/no-smoke.png" alt="">
+                             <label for="">Non-Smoking Hotel</label><br>
+                             <label for="">#8 Best Value of 470 hotels in New York City</label><br><br>
+                             <a class="btn-book" href="#">Book now</a>
+                           </h5>
+                         </div>
+                       </figcaption>
+                     </figure>
+                   </figure>
+                 </div>
+               </div>
+               </div>
+              </div>
+
+              <!--- four star--->
+              <div id="ev1" class="contant-hotels">
+                <h2 id="stars">Top of Hotels 4 Stars</h2>
+                <div class="collection">
+                  <div class="img-flex">
+                    <div class="border-img">
+                      <figure>
+                        <img id="hotel-img" src="./images/Hotels/4-stars/Fifty-NYC.jpg" alt="">
+                        <figcaption>
+                          <h4>Fifty NYC–an Affinia hotel</h4>
+                            <div class="desc-service">
+                              <h5>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <label for="">1,439 reviews</label>
+                                <br>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <label for="">Special offer</label><br>
+                                <img id ="i" src="./images/favicon/room2.png" alt="">
+                                <label for="">Room Service</label><br>
+                                <img id ="i" src="./images/favicon/fitness1.png" alt="">
+                                <label for="">Fitness center</label><br>
+                                <label for="">#1 Best Value of 470 hotels in New York City</label><br><br>
+                                <a class="btn-book" href="#">Book now</a>
+                               </h5>
+                            </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+
+                    <div class="border-img">
+                    <figure>
+                      <img id="hotel-img" src="./images/Hotels/4-stars/Lexington.jpg" alt="">
+                      <figcaption>
+                        <h4>The Lexington New York City, Autograph Collection</h4>
+                        <div class="desc-service">
+                          <h5>
+                           <i class="fa fa-eye" aria-hidden="true"></i>
+                          <label for="">3,634 reviews</label>
+                          <br>
+                          <i class="fa fa-cutlery" aria-hidden="true"></i>
+                          <label for="">Restaurant</label><br>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <label for="">Special offer</label><br>
+                          <img id ="i" src="./images/favicon/bar1.png" alt="">
+                          <label for="">Bar/Lounge</label><br>
+
+
+                          <label for="">#3 Best Value of 470 hotels in New York City</label><br><br>
+                          <a class="btn-book" href="#">Book now</a>
+                        </h5>
+                        </div>
+                      </figcaption>
+                    </div>
+                  </div>
+
+                  <div class="img-flex">
+                    <div class="border-img">
+                    <figure>
+                      <img id="hotel-img" src="./images/Hotels/4-stars/6-Columbus.jpg" alt="">
+                      <figcaption>
+                        <h4>6 Columbus - A SIXTY Hotel</h4>
+                         <div class="desc-service">
+                           <h5>
+                           <i class="fa fa-eye" aria-hidden="true"></i>
+                           <label for="">1,142 reviews</label>
+                           <br>
+                           <i class="fa fa-cutlery" aria-hidden="true"></i>
+                           <label for="">Restaurant</label><br>
+                           <i class="fa fa-star" aria-hidden="true"></i>
+                           <label for="">Special offer</label><br>
+                           <img id ="i" src="./images/favicon/room2.png" alt="">
+                           <label for="">Room Service</label><br>
+                           <label for="">#3 Best Value of 470 hotels in New York City</label><br><br>
+                           <a class="btn-book" href="#">Book now</a>
+                         </h5>
+                         </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+
+                  <div class="border-img">
+                     <figure>
+                        <img id="hotel-img" src="./images/Hotels/4-stars/Sofitel-NewYork.jpg" alt="">
+                        <figcaption>
+                          <h4>Sofitel New York</h4>
+                          <div class="desc-service">
+                            <h5>
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                              <label for="">6,694 reviews</label><br>
+                              <i class="fa fa-wifi" aria-hidden="true"></i>
+                              <label for="">Free wifi</label><br>
+                              <i class="fa fa-cutlery" aria-hidden="true"></i>
+                              <label for="">Restaurant</label><br>
+                              <i class="fa fa-star" aria-hidden="true"></i>
+                              <label for="">Special offer</label><br>
+                              <label for="">#28 Best Value of 470 hotels in New York City</label><br><br>
+                              <a class="btn-book" href="#">Book now</a>
+                            </h5>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </figure>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <!---Three Stars--->
+              <div id="ev2" class="contant-hotels">
+                <h2 id="stars">Top of Hotels 3 Stars</h2>
+                <div class="collection">
+                  <div class="img-flex">
+                    <div class="border-img">
+                      <figure>
+                        <img id="hotel-img" src="./images/Hotels/3-stars/Room-Mate-Grace.jpg" alt="">
+                        <figcaption>
+                          <h4>Room Mate Grace</h4>
+                            <div class="desc-service">
+                              <h5>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <label for="">1,118 reviews</label>
+                                <br>
+                                <i class="fa fa-wifi" aria-hidden="true"></i>
+                                <label for="">Free wifi</label><br>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <label for="">Special offer</label><br>
+                                <img id ="i" src="./images/favicon/pool.png" alt="">
+                                <label for="">Pool</label><br>
+                                <label for="">#1 Best Value of 470 hotels in New York City</label><br><br>
+                                <a class="btn-book" href="#">Book now</a>
+                               </h5>
+                            </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+
+                    <div class="border-img">
+                    <figure>
+                      <img id="hotel-img" src="./images/Hotels/3-stars/Courtyard-NewYork.jpg" alt="">
+                      <figcaption>
+                        <h4>Courtyard New York Manhattan/Midtown East</h4>
+                        <div class="desc-service">
+                          <h5>
+                           <i class="fa fa-eye" aria-hidden="true"></i>
+                          <label for="">2,353 reviews</label>
+                          <br>
+                          <i class="fa fa-wifi" aria-hidden="true"></i>
+                          <label for="">Free wifi</label><br>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <label for="">Special offer</label><br>
+                          <img id ="i" src="./images/favicon/fitness1.png" alt="">
+                          <label for="">Fitness center</label><br>
+                          <label for="">#2 Best Value of 470 hotels in New York City</label><br><br>
+                          <a class="btn-book" href="#">Book now</a>
+                        </h5>
+                        </div>
+                      </figcaption>
+                    </div>
+                  </div>
+
+                  <div class="img-flex">
+                    <div class="border-img">
+                    <figure>
+                      <img id="hotel-img" src="./images/Hotels/3-stars/Excelsior-Hotel.jpg" alt="">
+                      <figcaption>
+                        <h4>Excelsior Hotel</h4>
+                         <div class="desc-service">
+                           <h5>
+                           <i class="fa fa-eye" aria-hidden="true"></i>
+                           <label for="">2,145 reviews</label>
+                           <br>
+                           <i class="fa fa-cutlery" aria-hidden="true"></i>
+                           <label for="">Restaurant</label><br>
+                           <i class="fa fa-star" aria-hidden="true"></i>
+                           <label for="">Special offer</label><br>
+                           <img id ="i" src="./images/favicon/room2.png" alt="">
+                           <label for="">Room Service</label><br>
+                           <label for="">#3 Best Value of 470 hotels in New York City</label><br><br>
+                           <a class="btn-book" href="#">Book now</a>
+                         </h5>
+                         </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+
+                  <div class="border-img">
+                     <figure>
+                        <img id="hotel-img" src="./images/Hotels/3-stars/The-Watson-Hotel.jpg" alt="">
+                        <figcaption>
+                          <h4>The Watson Hotel</h4>
+                          <div class="desc-service">
+                            <h5>
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                              <label for="">4,483 reviews</label><br>
+                              <img id="i"src="./images/favicon/parking1.png" alt="">
+                              <label for="">Parking</label><br>
+                              <img id="i" src="./images/favicon/pool.png" alt="">
+                              <label for="">Pool</label><br>
+                              <img id="i" src="./images/favicon/breakfast.png" alt="">
+                              <label for="">Breakfast Buffet</label><br>
+                              <label for="">#15 Best Value of 470 hotels in New York City</label><br><br>
+                              <a class="btn-book" href="#">Book now</a>
+                            </h5>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </figure>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!---Two Stars--->
+              <div id="ev3" class="contant-hotels">
+                <h2 id="stars">Top of Hotels 2 Stars</h2>
+                <div class="collection">
+                  <div class="img-flex">
+                    <div class="border-img">
+                      <figure>
+                        <img id="hotel-img" src="./images/Hotels/2-stars/Off-Soho-Suites.jpg" alt="">
+                        <figcaption>
+                          <h4>Off Soho Suites</h4>
+                            <div class="desc-service">
+                              <h5>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <label for="">281 reviews</label>
+                                <br>
+                                <i class="fa fa-wifi" aria-hidden="true"></i>
+                                <label for="">Free wifi</label><br>
+                                <img id ="i" src="./images/favicon/fitness1.png" alt="">
+                                <label for="">Fitness center</label><br>
+                                <label for="">#5 Best Value of 470 hotels in New York City</label><br><br>
+                                <a class="btn-book" href="#">Book now</a>
+                               </h5>
+                            </div>
+                        </figcaption>
+                      </figure>
+                    </div>
+
+                    <div class="border-img">
+                    <figure>
+                      <img id="hotel-img" src="./images/Hotels/2-stars/Travel-Inn.jpg" alt="">
+                      <figcaption>
+                        <h4>Travel Inn Hotel New York</h4>
+                        <div class="desc-service">
+                          <h5>
+                           <i class="fa fa-eye" aria-hidden="true"></i>
+                          <label for="">1,827 reviews</label><br>
+                          <img id ="i" src="./images/favicon/pool.png" alt="">
+                          <label for=""> Pool</label><br>
+                          <label for="">#4 Best Value of 470 hotels in New York City</label><br><br>
+                          <a class="btn-book" href="#">Book now</a>
+                        </h5>
+                        </div>
+                      </figcaption>
+                    </div>
+                  </div>
+
+                  <div class="img-flex">
+                    <div class="border-img">
+                    <figure>
+                      <img id="hotel-img" src="./images/Hotels/2-stars/Comfort-Inn.jpg" alt="">
+                      <figcaption>
+                        <h4>Comfort Inn Times Square West</h4>
+                         <div class="desc-service">
+                           <h5>
+                           <i class="fa fa-eye" aria-hidden="true"></i>
+                           <label for="">1,027 reviews</label>
+                           <br>
+                           <img id="i" src="./images/favicon/parking1.png" alt="">
+                           <label for="">Parking</label><br>
+                           <i class="fa fa-wifi" aria-hidden="true"></i>
+                           <label for="">Free wifi</label><br>
+                           <i class="fa fa-star" aria-hidden="true"></i>
+                           <label for="">Special offer</label><br>
+                           <label for="">#3 Best Value of 470 hotels in New York City</label><br><br>
+                           <a class="btn-book" href="#">Book now</a>
+                         </h5>
+                         </div>
+                      </figcaption>
+                    </figure>
+                  </div>
+
+                  <div class="border-img">
+                     <figure>
+                        <img id="hotel-img" src="./images/Hotels/2-stars/Renaissance-NewYork.jpg" alt="">
+                        <figcaption>
+                          <h4>renaissance inn new york manhattan times square</h4>
+                          <div class="desc-service">
+                            <h5>
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                              <label for="">4,183 reviews</label><br>
+                              <img id="i"src="./images/favicon/parking1.png" alt="">
+                              <label for="">Parking</label><br>
+                              <i class="fa fa-cutlery" aria-hidden="true"></i>
+                              <label for="">Restaurant</label><br>
+                              <img id="i"src="./images/favicon/no-smoke.png" alt="">
+                              <label for="">Non-Smoking Hotel</label><br>
+                              <label for="">#10 Best Value of 470 hotels in New York City</label><br><br>
+                              <a class="btn-book" href="#">Book now</a>
+                            </h5>
+                          </div>
+                        </figcaption>
+                      </figure>
+                    </figure>
+                  </div>
+                </div>
+                </div>
+              </div>
+        </div>
+      </section>
+      <section  class="section section-service" >
+          <a name="Services"></a>
+        <div class="container">
+          <h1>Nyc <span id="nyc-e">s</span>ervice</h1>
+          <div class="option-service">
+             <label id="checknyc" for="">Nyc-Map</label>
+              <input id="checkmap" type="checkbox" name="nyc-map" value="nyc map">
+              <label id="checknyc" for="">Search</label>
+              <input id="checksearch" type="checkbox" name="search" value="search" > <br><br>
+              <input id="submit-search" type="submit" name="" value="Submit"onclick="serviceFunction()">
+
+          </div>
+          <div id="search">
+            <div class="flex-search">
+             <label  id="search-l" for="">Search :</label>
+             <input id="search-t" type="text" name="" value="">
+             <input  id ="s-ex" type="button" name="" value="Exict" onclick="excitS_func()">
+           </div>
+          </div>
+
+          <div id="map">
+            <div class="flex-map">
+              <label  id="map-l" for="">Nyc Map</label><br>
+              <div class="map-b">
+                  <iframe id="i-f" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2702705411!2d-73.70017525079271!3d40.69767172294493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z16DXmdeVINeZ15XXqNenLCDXkNeo16bXldeqINeU15HXqNeZ16o!5e0!3m2!1siw!2sil!4v1515776111241" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <input  id ="ex" type="button" name="" value="Exict" onclick="excitM_func()">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class=" section section-footer">
+        <div class="contanier">
+          <div class="main-flex-footer">
+            <div class="footer-flex">
+              <div class="about-f">
+                <div class="ti-ic">
+                 <h2 id="t-b" >About</h2>
+                 <button id="btn-f"type="button" name="" onclick="footer_func()" class="style-btn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                 <button id="btn-f1"type="button" name="" onclick="hide()" class="style-btn"><i class="fa fa-minus" aria-hidden="true"></i></button>
+               </div>
+               <div id="f-c">
+                 <p>Manhattan </p>
+                 <p>Staten Island</p>
+                 <p>Brooklyn </p>
+                 <p>Queens</p>
+                 <p>Bronx</p>
+               </div>
+              </div>
+              <div class="thing-f">
+                <div class="ti-ic">
+                  <h2 id="t-b">Thing to DO</h2>
+                  <button id="btn-f5"type="button" name="" onclick="footer_func2()" class="style-btn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                  <button id="btn-f6"type="button" name="" onclick="hide2()" class="style-btn"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                </div>
+                <div id="f1">
+                  <p>Central Park</p>
+                  <p>Times Square</p>
+                  <p>Manhattan Skyline</p>
+                  <p>The Metropolitan Museum of Art</p>
+                  <p>Top of the Rock Observation Deck</p>
+                  <p>The National 9/11 Memorial & Museum</p>
+                </div>
+              </div>
+              <div class="event-f">
+                <div class="ti-ic">
+                  <h2 id="t-b">Nyc-Event</h2>
+                  <button id="btn-f3"type="button" name="" onclick="footer_func1()" class="style-btn"><i class="fa fa-plus" aria-hidden="true" class="style-btn"></i></button>
+                  <button id="btn-f4"type="button" name="" onclick="hide1()" class="style-btn"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                </div>
+                <div id="f2">
+                  <p>Music Events</p>
+                  <p>Sport Events</p>
+                  <p>Holidays and Activities</p>
+                </div>
+              </div>
+              <div class="hotels-f">
+                <div class="ti-ic">
+                  <h2 id="t-b">Hotels</h2>
+                  <button id="btn-f7"type="button" name="" onclick="footer_func3()" class="style-btn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                  <button id="btn-f8"type="button" name="" onclick="hide3()" class="style-btn"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                </div>
+                <div id="f3">
+                  <p>Hotels 5 Stars</p>
+                  <p>Hotels 4 Stars</p>
+                  <p>Hotels 3 Stars</p>
+                  <p>Hotels 2 Stars</p>
+                </div>
+              </div>
+              <div class="service-f">
+                <div class="ti-ic">
+                  <h2 id="t-b">Nyc-Services</h2>
+                  <button id="btn-f9"type="button" name="" onclick="footer_func4()"class="style-btn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                  <button id="btn-f10"type="button" name="" onclick="hide4()" class="style-btn"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                </div>
+                <div id="f4">
+                  <p>Search</p>
+                  <p>Map</p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-c">
+              <div class="part1">
+                <div class="meadia-footer">
+                  <h2>Follow us !</h2>
+                  <div class="m-icon">
+                    <i  id ="ic"class="fa fa-twitter" aria-hidden="true"></i>
+                    <i id ="ic" class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i id ="ic" class="fa fa-instagram" aria-hidden="true"></i>
+                    <i id ="ic" class="fa fa-pinterest" aria-hidden="true"></i>
+
+                  </div>
+              </div>
+              <div class="f-cu">
+                <p>ABOUT US</p>
+                <p>ADVERTISE</p>
+                <p>TERMS OF USE</p>
+                <p>PRIVACY POLICY</p>
+              </div>
+              </div>
+
+            <div class="news">
+              <h2>Sign up for newsletters and deals</h2>
+              <div class="news-l">
+                <input id="t-e" type="text" name="" value="Email">
+                <button  id="b-s" type="button" name="button">Submit</button>
+              </div>
+            </div>
 
 
 
+            </div>
+            <div class="copy">
+              <h2>Newyork City | Tourist Attraction Page by Hiba Akel , Copyright &copy;2018</h2>
+            </div>
 
-    </div>
+          </div>
+
+
+        </div>
+
+
+      </footer>
+      <script src="./js/main.js">require("./js/main.js")
+      </script>
+
+
+
 
   </body>
 </html>
