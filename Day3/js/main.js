@@ -103,5 +103,31 @@ function serviceFunction() {
     var a = document.getElementById("search").style.display= "block";
   }
 
+}
+//**exict button of search div Function**//
+//**********************//
+function excitS_func(){
+   hidesearchFunction();
+   unchecked();
+ }
+
+function hidesearchFunction(){
+ var hide = document.querySelector("#search").style.display= "none";
+}
+function unchecked(){
+  var y= document.getElementById("checksearch").checked=false;
 
 }
+
+//**exict button of map div Function**//
+//**********************//
+function excitM_func(){
+   hidemapFunction();
+   uncheckedmap();
+ }
+ function hidemapFunction() {
+   var hide = document.querySelector("#map").style.display= "none";
+ }
+ function uncheckedmap() {
+   var y= document.getElementById("checkmap").checked=false ;
+ }

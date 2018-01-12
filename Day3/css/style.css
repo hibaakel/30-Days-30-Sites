@@ -427,7 +427,7 @@ h1::first-letter {
   text-align: left;
 }
 /*-------------------------*/
-/* Map section*/
+/* services section*/
 .section-service{
   background-color: #f3f3f3;
   background-image:url('../images/background-img/climpek.png');
@@ -450,6 +450,7 @@ h1::first-letter {
   display:none;
   padding: 20px 0;
   padding-top: 10px;
+  margin-top: 20px;
 }
 #checknyc{
   font-family: 'Kalam', cursive;
@@ -459,15 +460,16 @@ h1::first-letter {
 #search-l{
   font-family: 'Kalam', cursive;
   color:#d12a2a;
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 5px;
   margin-top: 5px;
   margin-right: 7px;
+  text-shadow: 2px 2px #333;
 }
 #search-t{
   border:3px #d12a2a solid;
   margin-right: 2px;
-  background: white url('../images/favicon/icon.svg') left no-repeat;
+  background: white url('../images/favicon/icon.svg') right no-repeat;
   padding-left: 40px;
 }
 #s-ex{
@@ -484,7 +486,8 @@ h1::first-letter {
 #map-l{
   font-family: 'Kalam', cursive;
   color:#d12a2a;
-  font-size: 15px;
+  font-size: 20px;
+  text-shadow: 2px 2px #333;
 }
 .map-b{
   border: 3px solid #d12a2a;
@@ -512,4 +515,42 @@ h1::first-letter {
   display: flex;
   flex-direction: row;
   justify-content:center;
+}
+#submit-search{
+  background-color: #d12a2a;
+  color: white;
+  border-style: solid;
+  border-color: #333;
+  width: 15vh;
+  height: 5vh;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: 'Kalam', cursive;
+  text-shadow:none;
+
+}
+/*-------------------------*/
+/* footer section*/
+.section-footer{
+  background-color: #d12a2a;
+  background-image:url('../images/background-img/black-mamba.png');
+  color:#fff;
+}
+.main-flex-footer{
+  display: flex;
+  flex-direction: column;
+}
+.m-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#ic{
+  margin: 10px 10px 10px 10px;
+  font-size: 30px;
+}
+.footer-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

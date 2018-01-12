@@ -38,6 +38,7 @@
                   <li><a href="#Things">Top Things to do</a></li>
                   <li><a href="#Event">NYC events</a></li>
                   <li><a href="#Hotels">Hotels</a></li>
+                  <li><a href="#Services">Services</a></li>
                 </ul>
               </nav>
             </div>
@@ -633,6 +634,7 @@
         </div>
       </section>
       <section  class="section section-service" >
+          <a name="Services"></a>
         <div class="container">
           <h1>Nyc <span id="nyc-e">s</span>ervice</h1>
           <div class="option-service">
@@ -640,14 +642,14 @@
               <input id="checkmap" type="checkbox" name="nyc-map" value="nyc map">
               <label id="checknyc" for="">Search</label>
               <input id="checksearch" type="checkbox" name="search" value="search" > <br><br>
-              <input type="submit" name="" value="Submit"onclick="serviceFunction()">
+              <input id="submit-search" type="submit" name="" value="Submit"onclick="serviceFunction()">
 
           </div>
           <div id="search">
             <div class="flex-search">
              <label  id="search-l" for="">Search :</label>
-             <input id="search-t" type="text" name="" value="Search">
-             <input  id ="s-ex" type="button" name="" value="Exict">
+             <input id="search-t" type="text" name="" value="">
+             <input  id ="s-ex" type="button" name="" value="Exict" onclick="excitS_func()">
            </div>
           </div>
 
@@ -657,18 +659,76 @@
               <div class="map-b">
                   <iframe id="i-f" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2702705411!2d-73.70017525079271!3d40.69767172294493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z16DXmdeVINeZ15XXqNenLCDXkNeo16bXldeqINeU15HXqNeZ16o!5e0!3m2!1siw!2sil!4v1515776111241" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
-              <input  id ="ex" type="button" name="" value="Exict">
+              <input  id ="ex" type="button" name="" value="Exict" onclick="excitM_func()">
             </div>
           </div>
+        </div>
+      </section>
+
+      <footer class=" section section-footer">
+        <div class="contanier">
+          <div class="main-flex-footer">
+            <div class="footer-flex">
+              <div class="about-f">
+                <h2>About</h2>
+                <p>Manhattan </p>
+                <p>Staten Island</p>
+                <p>Brooklyn </p>
+                <p>Queens</p>
+                <p>Bronx</p>
+
+              </div>
+              <div class="thing-f">
+                <h2>Thing to DO</h2>
+                <p>Central Park</p>
+                <p>Times Square</p>
+                <p>Manhattan Skyline</p>
+                <p>The Metropolitan Museum of Art</p>
+                <p>Top of the Rock Observation Deck</p>
+                <p>The National 9/11 Memorial & Museum</p>
+
+
+              </div>
+              <div class="event-f">
+                <h2>Nyc-Event</h2>
+                <p>Music Events</p>
+                <p>Sport Events</p>
+                <p>Holidays and Activities</p>
+              </div>
+              <div class="hotels-f">
+                <h2>Hotels</h2>
+                <p>Hotels 5 Stars</p>
+                <p>Hotels 4 Stars</p>
+                <p>Hotels 3 Stars</p>
+                <p>Hotels 2 Stars</p>
+
+              </div>
+              <div class="service-f">
+                <h2>Nyc-Services</h2>
+                <p>Search</p>
+                <p>Map</p>
+
+              </div>
+
+            </div>
+            <div class="meadia-footer">
+              <h2>Follow us !</h2>
+              <div class="m-icon">
+                <i  id ="ic"class="fa fa-twitter" aria-hidden="true"></i>
+                <i id ="ic" class="fa fa-facebook-square" aria-hidden="true"></i>
+                <i id ="ic" class="fa fa-instagram" aria-hidden="true"></i>
+                <i id ="ic" class="fa fa-pinterest" aria-hidden="true"></i>
+
+              </div>
+
+            </div>
+          </div>
+
 
         </div>
 
 
-
-
-
-
-      </section>
+      </footer>
       <script src="./js/main.js">require("./js/main.js")
       </script>
 
