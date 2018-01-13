@@ -117,7 +117,27 @@
  #search-t{
   width:20vh;
  }
+ #btn-f{
+   display: block;
+ }
+ #f-c{
+   display:none;
+ }
+ .footer-flex{
+   display: flex;
+   flex-direction: column;
+ }
 
+ #t-b{
+   border-bottom: initial;
+   font-size: 15px;
+ }
+ .ti-ic{
+   border-bottom: 2px solid #fff;
+   width: 100%;
+   margin-left: 5px;
+   justify-content: space-between;
+ }
 
 
 }
@@ -166,6 +186,9 @@
   .container{
     padding-right: 16rem;
     padding-left: 16rem;
+  }
+  #btn-f{
+    display: none;
   }
 
 }

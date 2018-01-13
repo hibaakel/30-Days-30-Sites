@@ -554,3 +554,21 @@ h1::first-letter {
   flex-direction: row;
   justify-content: space-around;
 }
+.ti-ic{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#btn-f{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#t-b{
+  border-bottom: 2px solid #fff;
+}
