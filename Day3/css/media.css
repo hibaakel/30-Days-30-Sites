@@ -5,10 +5,10 @@
 
   @media only screen and (width: 320px){
     #hotel-img{
-      width:25vh;
+      max-width: 100%;
     }
     #img-item{
-      width:40vh;
+      width: 40vh;
     }
 
     .header-content h1{
@@ -40,23 +40,23 @@
     font-size: 40px;
   }
   #hotel-img{
-    width:20vh;
+    max-width: 100%;
   }
 
   #img-item{
-    width:40vh;
+    max-width: 100%;
   }
   #i-f{
     width: 40vh;
   }
   #ex{
-    width: 40vh;
+    max-width: 100%
   }
   #map-l{
-    width: 40vh;
+    max-width: 100%;
   }
   .map-b{
-    width:45vh;
+    max-width: 100%;
   }
  #search-t{
   width:20vh;
@@ -151,10 +151,10 @@
 }
 @media only screen and (min-width: 120px)and(max-width:587px){
   #img-item{
-    width:20vh;
+    max-width: 100%;
   }
   #hotel-img{
-    width: 20vh;
+    max-width: 100%;
   }
   .header-content h1{
     font-size: 30px;
