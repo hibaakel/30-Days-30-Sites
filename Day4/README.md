@@ -1,3 +1,4 @@
-# 30-Days-30-Sites
-site show my projects in front end skills
-- Day 2 :the link https://hibaakel.github.io/30-Days-30-Sites/Day2/index.html
+# PRODUCT SITE -LUNA2 (foreo)
+- Responsive website with Media Query
+- Pure HTML5 & CSS3 (FlexBox for each Section)
+- Without any framework
