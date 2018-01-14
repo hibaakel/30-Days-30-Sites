@@ -2,64 +2,7 @@
 /* media query*/
 
 
-@media only screen and (min-width: 120px)and(max-width:587px){
-  .container{
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-  .container-about{
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-  .div-1{
-    flex-direction: column;
-  }
-  .div-2{
-    flex-direction: column;
-  }
-  .img-flex{
-    flex-direction: column;
-  }
-  #img-item{
-    width:20vh;
-  }
-  #hotel-img{
-    width: 20vh;
-  }
-  .header-content h1{
-    font-size: 30px;
-  }
-}
-  @media only screen and (min-width: 587px)and (max-width:768px) {
-    .container{
-      padding-right: 3rem;
-      padding-left: 3rem;
-    }
-    .container-about{
-      padding-right: 3rem;
-      padding-left: 3rem;
-    }
-    .div-1{
-      flex-direction: column;
-    }
-    .div-2{
-      flex-direction: column;
-    }
-    .img-flex{
-      flex-direction: column;
-    }
-    #img-item{
-      width:40vh;
-    }
-    #hotel-img{
-      width: 30vh;
-    }
 
-    .header-content h1{
-      font-size: 40px;
-    }
-
-  }
   @media only screen and (width: 320px){
     #hotel-img{
       width:25vh;
@@ -97,8 +40,9 @@
     font-size: 40px;
   }
   #hotel-img{
-    width:25vh;
+    width:20vh;
   }
+
   #img-item{
     width:40vh;
   }
