@@ -131,3 +131,100 @@ function excitM_func(){
  function uncheckedmap() {
    var y= document.getElementById("checkmap").checked=false ;
  }
+ //Footer Function//
+
+ //**the plus button functions**//
+ //**********************//
+  //********** About********//
+  function footer_func(){
+    showfooter();
+    hideicon();
+  }
+ function showfooter() {
+   var show = document.querySelector("#f-c").style.display= "block";
+
+ }
+ function hideicon(){
+   var h = document.querySelector("#btn-f").style.display= "none";
+   var show=document.querySelector("#btn-f1").style.display= "block";
+ }
+ // the minus button function//
+ function hide(){
+   var h = document.querySelector("#btn-f").style.display= "block";
+   var show=document.querySelector("#btn-f1").style.display= "none";
+   var sh = document.querySelector("#f-c").style.display= "none";
+ }
+ //********** Thing to Do********//
+ function footer_func2(){
+   showfooter2();
+   hideicon2();
+ }
+function showfooter2() {
+  var show2 = document.querySelector("#f1").style.display= "block";
+}
+function hideicon2(){
+  var h2= document.querySelector("#btn-f5").style.display= "none";
+  var show2=document.querySelector("#btn-f6").style.display= "block";
+}
+// the minus button function//
+function hide2(){
+  var h22 = document.querySelector("#btn-f5").style.display= "block";
+  var show22=document.querySelector("#btn-f6").style.display= "none";
+  var sh22 = document.querySelector("#f1").style.display= "none";
+}
+ //********** Nyc-Event********//
+function footer_func1(){
+   showfooter1();
+   hideicon1();
+ }
+function showfooter1() {
+  var show1 = document.querySelector("#f2").style.display= "block";
+}
+function hideicon1(){
+  var h1 = document.querySelector("#btn-f3").style.display= "none";
+  var show1=document.querySelector("#btn-f4").style.display= "block";
+}
+// the minus button function//
+function hide1(){
+  var h11 = document.querySelector("#btn-f3").style.display= "block";
+  var show11=document.querySelector("#btn-f4").style.display= "none";
+  var sh11 = document.querySelector("#f2").style.display= "none";
+}
+ //********** Hotels********//
+ function footer_func3(){
+  showfooter3();
+  hideicon3();
+}
+function showfooter3() {
+ var show3 = document.querySelector("#f3").style.display= "block";
+
+}
+function hideicon3(){
+ var h3 = document.querySelector("#btn-f7").style.display= "none";
+ var show3=document.querySelector("#btn-f8").style.display= "block";
+}
+// the minus button function//
+function hide3(){
+ var h33 = document.querySelector("#btn-f7").style.display= "block";
+ var show33=document.querySelector("#btn-f8").style.display= "none";
+ var sh33 = document.querySelector("#f3").style.display= "none";
+}
+ //********** Nyc-Services********//
+ function footer_func4(){
+  showfooter4();
+  hideicon4();
+}
+function showfooter4() {
+ var show4 = document.querySelector("#f4").style.display= "block";
+
+}
+function hideicon4(){
+ var h4 = document.querySelector("#btn-f9").style.display= "none";
+ var show4=document.querySelector("#btn-f10").style.display= "block";
+}
+// the minus button function//
+function hide4(){
+ var h44 = document.querySelector("#btn-f9").style.display= "block";
+ var show44=document.querySelector("#btn-f10").style.display= "none";
+ var sh44 = document.querySelector("#f4").style.display= "none";
+}

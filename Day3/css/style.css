@@ -559,6 +559,18 @@ h1::first-letter {
   flex-direction: row;
   justify-content: center;
 }
+.footer-c{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 10px 10px 10px 10px;
+}
+.f-cu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+}
 #btn-f{
   height: 30px;
   width: 30px;
@@ -569,6 +581,97 @@ h1::first-letter {
   border-radius: 50%;
   margin: 10px 10px 10px 10px;
 }
+#btn-f1{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#btn-f3{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#btn-f4{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#btn-f5{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#btn-f6{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#btn-f7{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#btn-f8{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#btn-f9{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+#btn-f10{
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color:#d12a2a;
+  opacity: 0.55;
+  border:3px solid #B21919;
+  border-radius: 50%;
+  margin: 10px 10px 10px 10px;
+}
+
 #t-b{
   border-bottom: 2px solid #fff;
 }
