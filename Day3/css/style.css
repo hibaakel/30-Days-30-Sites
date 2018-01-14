@@ -571,97 +571,13 @@ h1::first-letter {
   justify-content: center;
   margin: 10px 10px 10px 10px;
 }
-#btn-f{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
+.part1{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   margin: 10px 10px 10px 10px;
 }
-#btn-f1{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
-  margin: 10px 10px 10px 10px;
-}
-#btn-f3{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
-  margin: 10px 10px 10px 10px;
-}
-#btn-f4{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
-  margin: 10px 10px 10px 10px;
-}
-#btn-f5{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
-  margin: 10px 10px 10px 10px;
-}
-#btn-f6{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
-  margin: 10px 10px 10px 10px;
-}
-#btn-f7{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
-  margin: 10px 10px 10px 10px;
-}
-#btn-f8{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
-  margin: 10px 10px 10px 10px;
-}
-#btn-f9{
-  height: 30px;
-  width: 30px;
-  background-color: #fff;
-  color:#d12a2a;
-  opacity: 0.55;
-  border:3px solid #B21919;
-  border-radius: 50%;
-  margin: 10px 10px 10px 10px;
-}
-#btn-f10{
+.style-btn{
   height: 30px;
   width: 30px;
   background-color: #fff;
@@ -674,4 +590,37 @@ h1::first-letter {
 
 #t-b{
   border-bottom: 2px solid #fff;
+}
+#t-e{
+  border: 2px solid #B21919;
+  width: 30vh;
+  height: 6vh;
+  color:#B21919;
+  font-family:Raleway;
+  font-weight: bold;
+  font-size: 15px;
+}
+#b-s{
+  border: 2px solid #B21919;
+  width: 20vh;
+  height: 6vh;
+  color:#B21919;
+  font-family:Raleway;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #fff;
+}
+#b-s:hover{
+  background-color: #d12a2a;
+  color: #fff;
+  border: 2px solid #333;
+
+}
+.news h2{
+  border-bottom:  2px solid #fff;
+}
+.copy{
+  font-size: 10px;
+  color: #fff;
+  margin: 10px 10px 10px 10px;
 }

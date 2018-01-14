@@ -171,6 +171,14 @@
    border-bottom: initial;
    font-size: 15px;
  }
+ .news h2{
+   border-bottom: initial;
+ }
+ .part1{
+   display: flex;
+   flex-direction: column;
+   margin: 10px 10px 10px 10px;
+ }
  .ti-ic{
    border-bottom: 2px solid #fff;
    width: 100%;
@@ -220,8 +228,9 @@
 
   }
 
+
   }
-}
+
 @media only screen and (width: 1024px){
   .flex-hotels{
     width:60vh;
@@ -234,6 +243,7 @@
     justify-content: space-between;
 
   }
+
 
   }
 
@@ -273,5 +283,25 @@
   #btn-f1{
     display: none;
   }
+  #b-s{
+    width: 25%;
+    height: 6vw;
+  }
+  #t-e{
+    width: 70%;
+    height: 6vw;
+  }
+
+}
+@media (min-width: 1025px)  {
+  #b-s{
+    width: 25%;
+    height: 4vw;
+  }
+  #t-e{
+    width: 70%;
+    height: 4vw;
+  }
+
 
 }
